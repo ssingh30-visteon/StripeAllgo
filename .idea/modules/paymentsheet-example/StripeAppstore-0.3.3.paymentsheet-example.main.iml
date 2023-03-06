@@ -15,6 +15,8 @@
             <stringArg name="classpath">
               <args>
                 <arg>$MODULE_DIR$/../../../paymentsheet-example/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../payments-core/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
+                <arg>$MODULE_DIR$/../../../paymentsheet/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dbd4bf26222d9aafe2a876319b7eef59/transformed/viewbinding-7.0.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.9.2/c61dbaf54ecc6da57c8243e7867892c7fd2c8556/logging-interceptor-4.9.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/11f65d70db644ebf5821962742000422/transformed/navigation-fragment-ktx-2.3.5-api.jar</arg>

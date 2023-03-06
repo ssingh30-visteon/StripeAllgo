@@ -14,6 +14,8 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../payments-core/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugUnitTest/R.jar</arg>
+                <arg>$MODULE_DIR$/../../../payments-core/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d6ca72e4a4bb5bcf82c79fb154331ad2/transformed/stripe-3ds2-android-6.1.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dbd4bf26222d9aafe2a876319b7eef59/transformed/viewbinding-7.0.3-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a8931e9e2dd61406d71d5aa58612c8f2/transformed/fragment-testing-1.3.4-api.jar</arg>
