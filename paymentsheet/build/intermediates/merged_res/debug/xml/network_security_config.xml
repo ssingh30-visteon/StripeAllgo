@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--<domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.3.2</domain>
+    </domain-config>-->
+  <domain-config cleartextTrafficPermitted="true">
+    <domain includeSubdomains="true">devapi.visteoncloud.com</domain>
+    <domain includeSubdomains="true">stagingapi.visteoncloud.com</domain>
+    <domain includeSubdomains="true">appstore.visteoncloud.com</domain>
+  </domain-config>
+    <base-config>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="user"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

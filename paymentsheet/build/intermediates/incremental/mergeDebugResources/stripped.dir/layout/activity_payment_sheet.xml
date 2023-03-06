@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="735dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/stripe_paymentsheet_bg"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:visibility="visible"
+            app:elevation="0dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stripe_paymentsheet_toolbar_bg"
+                android:paddingEnd="10dp"
+                app:contentInsetStart="0dp"
+                app:contentInsetStartWithNavigation="0dp"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:id="@+id/testmode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingEnd="6dp"
+                    android:paddingStart="6dp"
+                    android:background="@drawable/stripe_paymentsheet_testmode_background"
+                    android:textColor="@color/stripe_paymentsheet_testmode_text"
+                    android:textStyle="bold"
+                    android:text="@string/stripe_paymentsheet_test_mode_indicator" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:scrollIndicators="end"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarSize="10dp"
+            android:layout_marginTop="20dp"
+            android:scrollbarTrackVertical="@drawable/stripe_paymentsheet_scrollbar_track_bg"
+            android:scrollbarThumbVertical="@drawable/stripe_paymentsheet_scrollbar_thumb_bg"
+            android:fadeScrollbars="false"
+            android:verticalScrollbarPosition="right">
+
+            <LinearLayout
+                android:id="@+id/fragment_container_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:animateLayoutChanges="true">
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/fragment_container"
+                    android:name="com.stripe.android.paymentsheet.PaymentSheetLoadingFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/message"
+                    style="@style/StripePaymentSheetErrorMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginVertical="2dp"
+                    android:layout_marginHorizontal="@dimen/stripe_paymentsheet_outer_spacing_horizontal" />
+
+                <FrameLayout
+                    android:id="@+id/button_container"
+                    android:animateLayoutChanges="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/stripe_paymentsheet_max_primary_button_height"
+                    android:layout_marginTop="@dimen/stripe_paymentsheet_button_container_spacing"
+                    android:layout_marginHorizontal="@dimen/stripe_paymentsheet_outer_spacing_horizontal"
+                    android:layout_marginBottom="@dimen/stripe_paymentsheet_button_container_spacing_bottom">
+
+                    <com.stripe.android.paymentsheet.ui.PrimaryButton
+                        android:id="@+id/buy_button"
+                        android:layout_width="264dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stripe_paymentsheet_pay_button_label"
+                        android:background="@drawable/stripe_paymentsheet_button_bg"
+                        android:layout_gravity="center"
+                        android:layout_marginVertical="2dp"
+                        android:layout_marginHorizontal="2dp"
+                        android:visibility="gone" />
+
+                    <com.stripe.android.paymentsheet.ui.GooglePayButton
+                        android:id="@+id/google_pay_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

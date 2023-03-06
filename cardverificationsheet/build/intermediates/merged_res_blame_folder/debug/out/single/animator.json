@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_fade_exit.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_open_enter.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_open_exit.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_close_exit.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_close_enter.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\cardverificationsheet\\build\\intermediates\\merged_res\\debug\\animator\\fragment_fade_enter.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\870f626c5834d5b9c76282a95074c646\\transformed\\fragment-1.3.4\\res\\animator\\fragment_fade_enter.xml"
+    }
+]

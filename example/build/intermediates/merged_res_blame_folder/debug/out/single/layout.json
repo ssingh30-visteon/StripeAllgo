@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\netbanking_payment_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\netbanking_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sofort_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\sofort_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\upi_payment_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\upi_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\upi_waiting_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\upi_waiting_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\becs_debit_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\becs_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_card_source_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_source_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\payment_auth_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_auth_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bank_selector_payment_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\bank_selector_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bacs_debit_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\bacs_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sources_list_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\sources_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\customer_session_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\customer_session_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\payment_session_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_session_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\polling_list_headers.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\polling_list_headers.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\payment_method_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_method_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_payment_method_footer.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\add_payment_method_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\google_pay_button.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_brands_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\card_brands_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\klarna_payment_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\klarna_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\connect_example_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\connect_example_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\launch_payment_session_fragment.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launch_payment_session_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\launcher_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launcher_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\token_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\token_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_payment_method_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\simple_payment_method_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\launcher_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launcher_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\google_pay_activity_playground.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_activity_playground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_card_token_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_token_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_sepa_debit_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_sepa_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragments_example_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\fragments_example_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\google_pay_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_brand_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\card_brand_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dropdown_menu_popup_item.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\dropdown_menu_popup_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\create_card_payment_method_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_payment_method_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\klarna_source_activity.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\klarna_source_activity.xml"
+    }
+]

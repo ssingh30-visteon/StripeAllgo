@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\layout-land\\material_timepicker.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\layout-land\\material_timepicker.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\layout-land\\material_clock_period_toggle_land.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\layout-land\\material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\layout-land\\mtrl_picker_header_dialog.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\layout-land\\mtrl_picker_header_dialog.xml"
+    }
+]

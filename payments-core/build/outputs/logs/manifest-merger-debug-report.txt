@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:2:1-87:12
+	package
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:5:5-75:19
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:6:9-9:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:9:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:8:13-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:7:13-58
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:10:9-13:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:13:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:12:13-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:11:13-56
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:14:9-17:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:16:13-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:15:13-53
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:18:9-22:40
+	android:windowSoftInputMode
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:21:13-55
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:19:13-60
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:23:9-26:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:25:13-58
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:24:13-54
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:32:9-50:20
+	android:launchMode
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:35:13-44
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:36:13-36
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:34:13-58
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:33:13-67
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:37:13-49:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:39:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:40:17-78
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:40:27-75
+data
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:45:17-48:56
+	android:path
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:48:21-53
+	android:host
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:47:21-54
+	android:scheme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:46:21-47
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:52:9-55:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:55:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:54:13-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:53:13-96
+activity#com.stripe.android.googlepaylauncher.StripeGooglePayActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:57:9-60:39
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:60:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:58:13-70
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:62:9-65:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:65:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:64:13-63
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:63:13-72
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:67:9-70:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:68:13-85
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:72:9-74:39
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:74:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:73:13-59
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:72:19-95
+queries
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:80:5-85:15
+package#com.android.chrome
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:84:9-54
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml:84:18-51
+uses-sdk
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\AndroidManifest.xml

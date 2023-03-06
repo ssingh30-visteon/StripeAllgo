@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        }
+    ]
+}

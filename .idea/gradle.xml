@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Embedded JDK" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/cardverificationsheet" />
+            <option value="$PROJECT_DIR$/cardverificationsheet-example" />
+            <option value="$PROJECT_DIR$/example" />
+            <option value="$PROJECT_DIR$/payments" />
+            <option value="$PROJECT_DIR$/payments-core" />
+            <option value="$PROJECT_DIR$/paymentsheet" />
+            <option value="$PROJECT_DIR$/paymentsheet-example" />
+            <option value="$PROJECT_DIR$/stripe-test-e2e" />
+            <option value="$PROJECT_DIR$/wechatpay" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

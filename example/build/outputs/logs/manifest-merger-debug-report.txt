@@ -1,0 +1,849 @@
+-- Merging decision tree log ---
+meta-data#com.stripe.example.metadata.backend_url
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:24:9-26:46
+	android:value
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:25:13-67
+meta-data#com.stripe.example.metadata.publishable_key
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:27:9-29:50
+	android:value
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:29:13-47
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:28:13-71
+meta-data#com.stripe.example.metadata.stripe_account_id
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:30:9-32:52
+	android:value
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:31:13-73
+manifest
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+MERGED from [:payments] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-24:12
+MERGED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-83:12
+MERGED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\ssingh30\.gradle\caches\transforms-3\72b2b43d5488dbaa475c00ca195000c9\transformed\viewbinding-7.0.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\376b4a7883be7ec67a52ed02420a7e07\transformed\activity-compose-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cfa239ee40c2e9a639b7f6c38b339252\transformed\preference-ktx-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\c7590ffdfb6c2aa1508ed3fb5c74bcdc\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1dd09e19e4a96e60b694dbad391543ec\transformed\activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\19f8a5752380ac082af4d5b0b01e5b6c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\9b635380eb1a4a1f5e274ec53744fd23\transformed\material-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\4b55de7a86940374ef6f2d1c49649296\transformed\runtime-livedata-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\bd23e7272106b1f5602c38d38f6ca877\transformed\material-ripple-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.20.2] C:\Users\ssingh30\.gradle\caches\transforms-3\3cedcc76fbb992c42be8be94bcef4def\transformed\accompanist-flowlayout-0.20.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\69feb2b402c8979d62f361aae070099c\transformed\foundation-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5c322b5fee2c1e5cbc9886d77152e615\transformed\animation-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\c86491f9af20b94d5784108e997ebb34\transformed\animation-core-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7d64fc9828827492216f5322e7461410\transformed\material-icons-core-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\55369e66b55c7321cc6db222a7149fb0\transformed\foundation-layout-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7be669db05f96ad47772c75b001f80b7\transformed\ui-tooling-data-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\b66d576b2586bc03f27c2d5fe84bae1b\transformed\ui-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\d9cd05c79cc67bf01d2d5d81252b83da\transformed\ui-text-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5f59c2ff8808de12138d57399ddbe988\transformed\runtime-saveable-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\f643e9892f9b688d9a9ec3cf407bd58b\transformed\ui-graphics-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\3e1af7235509544dc02e52292c3a143c\transformed\ui-unit-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\62ffb83f45692f30b18d7f6cb3f18e78\transformed\ui-geometry-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\fff7713d8d5987a1a51cb8a13d48f910\transformed\ui-tooling-preview-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\077857e0cbf23f7c04069e1c08d0784d\transformed\runtime-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\b4acad58a397b864a292361a38389233\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:17:1-28:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:17:1-76:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\7ac9aa5b9987fa2c03db2b35c4120bf1\transformed\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\686584baae0d6263fccf2039cacb7bbe\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\a5e97d43e9317f237e1a5300a1a60bd9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\e455fa313d1d9c4e4d73461f8982ce98\transformed\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\88af9119f4cf96bf1da3f0e3ec21fc3f\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d94ecc8143bdddeecc83c0bf2ae8c6ca\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ssingh30\.gradle\caches\transforms-3\55b620010d2944ad3a1d1cd5282e9d64\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\ssingh30\.gradle\caches\transforms-3\5bedc937aa8a0f70b79414fdb5d04085\transformed\play-services-wallet-18.1.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\278edc44ba8cfbb45cddf517275939e0\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\73c1e20b80045615588643e29865ad3b\transformed\play-services-identity-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\457d4fee32eeee8af089b5f7de024560\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\75c230f14bfc037ce36fba69175b43f0\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\5180d03979afa7763d89a630c2b8b8a3\transformed\activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\d18275172c19b2d21fa47dff6271d688\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b5ae71e03a85ecff9a62683637d581c3\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8252149b26dd24e46b6c533261e72d77\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8c7a0ec5e853a0cbc1cbd8130eec2f9e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\707d2deafe5faedf9479bb77fb9ad09e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a799b2ed778a4a7662336ac8e877caac\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\01afb79258c8ceafb6178cc0e8f7ec08\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\09d222a4e4b813b75e1fefbda2bb31c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\fc41389d9db325bf607ee525ce4297ec\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1a8bef848433d5082607ffff8cbb55e3\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b79b3304caf713fc48742d3f14bef06b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bdd879f3db55a2f04d54a4d1726852cf\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\73efff4d9ba87a8a18076a5d234bfa96\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bde8087affc8b5f7c69dcc89a9f33031\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0e50f0f558f1fe089936555943d0ae60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\ssingh30\.gradle\caches\transforms-3\77840a24de4eff86434320ab6672d543\transformed\browser-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8758d1a653725ba0262cd5802a773fa1\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ssingh30\.gradle\caches\transforms-3\622665b71a5e0bc531e34b90f3a296d2\transformed\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\13fdfc3487dcc7902e81bf6630d9ff29\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\996b805b254ddcfe36b30dddef516a4e\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\231e37bfcbf8948e36521ffb2a2d7a62\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\169a3f17b5faa0e7c970fc3bdda67c8c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a87f3349edb1c2fa52486bc3126d9e64\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0923fe33991a49ff4f35a3b57afb918a\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\aa290e65d7aeabb32e3cfe6b0bb5f902\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\3acbeaf68de22e884c88b53114c43607\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e824fc270f306dd6491423ce022c9227\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\7746fcf92d726fd3fb1514fb3dc76e7b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\6eced7a5d91b84317cb6f8d1f47e48c8\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\177d221c31c34a896e7e092e834cd7b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\22e750806c7afc8d7421d9289392b060\transformed\ui-util-1.0.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\99efeb78f704cfc822195a06642d890c\transformed\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\b67a750cb11ac790af5b4bca63828948\transformed\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\e31b3f4c299ae8ce5d6ed2c26b30af34\transformed\leakcanary-android-utils-2.7\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cbb39a3fff1ea552fac28a53625bc9dc\transformed\curtains-1.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\47ae735cba79aed851eef028bbeff23b\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:1-76:12
+	package
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:5:5-33
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:7:5-30
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:4:5-51
+	xmlns:dist
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:3:5-61
+	xmlns:android
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:6:5-28
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+dist:module
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:9:5-40
+	dist:instant
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:9:18-37
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:11:22-64
+application
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:13:5-74:19
+MERGED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-22:19
+MERGED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-22:19
+MERGED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-81:19
+MERGED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-81:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:24:5-28:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:28:5-74:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\686584baae0d6263fccf2039cacb7bbe\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\686584baae0d6263fccf2039cacb7bbe\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\a5e97d43e9317f237e1a5300a1a60bd9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\a5e97d43e9317f237e1a5300a1a60bd9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\73c1e20b80045615588643e29865ad3b\transformed\play-services-identity-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\73c1e20b80045615588643e29865ad3b\transformed\play-services-identity-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\457d4fee32eeee8af089b5f7de024560\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\457d4fee32eeee8af089b5f7de024560\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\13fdfc3487dcc7902e81bf6630d9ff29\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\13fdfc3487dcc7902e81bf6630d9ff29\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:7:5-13:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:21:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:16:9-40
+	tools:ignore
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:17:9-40
+	android:networkSecurityConfig
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:20:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:22:9-44
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:14:9-43
+meta-data#com.google.android.gms.wallet.api.enabled
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:35:9-37:36
+	android:value
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:37:13-33
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:36:13-69
+activity#com.stripe.example.activity.LauncherActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:39:9-47:20
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:40:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:42:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:17-69
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:27-74
+activity#com.stripe.example.activity.CreateCardTokenActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:9-70
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:19-67
+activity#com.stripe.example.activity.CreateCardSourceActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:9-71
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:19-68
+activity#com.stripe.example.activity.CustomerSessionActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:9-70
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:19-67
+activity#com.stripe.example.activity.CreateCardPaymentMethodActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:9-78
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:19-75
+activity#com.stripe.example.activity.PaymentSessionActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:9-69
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:19-66
+activity#com.stripe.example.activity.GooglePayLauncherIntegrationActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:9-83
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:19-80
+activity#com.stripe.example.activity.GooglePayLauncherPlaygroundActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:9-82
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:19-79
+activity#com.stripe.example.activity.GooglePayPaymentMethodLauncherIntegrationActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:9-96
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:19-93
+activity#com.stripe.example.activity.PaymentAuthActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:9-66
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:19-63
+activity#com.stripe.example.activity.FragmentExamplesActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:9-71
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:19-68
+activity#com.stripe.example.activity.ConfirmSepaDebitActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:9-71
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:19-68
+activity#com.stripe.example.activity.FpxPaymentActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:9-65
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:19-62
+activity#com.stripe.example.activity.NetbankingListPaymentActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:9-76
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:19-73
+activity#com.stripe.example.activity.BecsDebitPaymentMethodActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:9-77
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:19-74
+activity#com.stripe.example.activity.BacsDebitPaymentMethodActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:9-77
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:19-74
+activity#com.stripe.example.activity.SofortPaymentMethodActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:9-74
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:19-71
+activity#com.stripe.example.activity.UpiPaymentActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:9-65
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:19-62
+activity#com.stripe.example.activity.UpiWaitingActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:9-65
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:19-62
+activity#com.stripe.example.activity.KlarnaSourceActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:9-67
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:19-64
+activity#com.stripe.example.activity.CardBrandsActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:9-65
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:19-62
+activity#com.stripe.example.activity.NetbankingPaymentActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:9-72
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:19-69
+activity#com.stripe.example.activity.SimpleConfirmationActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:9-73
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:19-70
+activity#com.stripe.example.activity.ConnectExampleActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:9-69
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:19-66
+activity#com.stripe.example.activity.ComposeExampleActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:9-69
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:19-66
+activity#com.stripe.example.activity.KlarnaPaymentActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:9-67
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:19-65
+uses-sdk
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+MERGED from [:payments] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:payments] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\ssingh30\.gradle\caches\transforms-3\72b2b43d5488dbaa475c00ca195000c9\transformed\viewbinding-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.3] C:\Users\ssingh30\.gradle\caches\transforms-3\72b2b43d5488dbaa475c00ca195000c9\transformed\viewbinding-7.0.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\376b4a7883be7ec67a52ed02420a7e07\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\376b4a7883be7ec67a52ed02420a7e07\transformed\activity-compose-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cfa239ee40c2e9a639b7f6c38b339252\transformed\preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cfa239ee40c2e9a639b7f6c38b339252\transformed\preference-ktx-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\c7590ffdfb6c2aa1508ed3fb5c74bcdc\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\c7590ffdfb6c2aa1508ed3fb5c74bcdc\transformed\fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1dd09e19e4a96e60b694dbad391543ec\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1dd09e19e4a96e60b694dbad391543ec\transformed\activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\19f8a5752380ac082af4d5b0b01e5b6c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\19f8a5752380ac082af4d5b0b01e5b6c\transformed\lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\9b635380eb1a4a1f5e274ec53744fd23\transformed\material-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\9b635380eb1a4a1f5e274ec53744fd23\transformed\material-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\4b55de7a86940374ef6f2d1c49649296\transformed\runtime-livedata-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\4b55de7a86940374ef6f2d1c49649296\transformed\runtime-livedata-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\bd23e7272106b1f5602c38d38f6ca877\transformed\material-ripple-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\bd23e7272106b1f5602c38d38f6ca877\transformed\material-ripple-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.20.2] C:\Users\ssingh30\.gradle\caches\transforms-3\3cedcc76fbb992c42be8be94bcef4def\transformed\accompanist-flowlayout-0.20.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.20.2] C:\Users\ssingh30\.gradle\caches\transforms-3\3cedcc76fbb992c42be8be94bcef4def\transformed\accompanist-flowlayout-0.20.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\69feb2b402c8979d62f361aae070099c\transformed\foundation-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\69feb2b402c8979d62f361aae070099c\transformed\foundation-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5c322b5fee2c1e5cbc9886d77152e615\transformed\animation-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5c322b5fee2c1e5cbc9886d77152e615\transformed\animation-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\c86491f9af20b94d5784108e997ebb34\transformed\animation-core-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\c86491f9af20b94d5784108e997ebb34\transformed\animation-core-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7d64fc9828827492216f5322e7461410\transformed\material-icons-core-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7d64fc9828827492216f5322e7461410\transformed\material-icons-core-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\55369e66b55c7321cc6db222a7149fb0\transformed\foundation-layout-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\55369e66b55c7321cc6db222a7149fb0\transformed\foundation-layout-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7be669db05f96ad47772c75b001f80b7\transformed\ui-tooling-data-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\7be669db05f96ad47772c75b001f80b7\transformed\ui-tooling-data-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\b66d576b2586bc03f27c2d5fe84bae1b\transformed\ui-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\b66d576b2586bc03f27c2d5fe84bae1b\transformed\ui-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\d9cd05c79cc67bf01d2d5d81252b83da\transformed\ui-text-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\d9cd05c79cc67bf01d2d5d81252b83da\transformed\ui-text-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5f59c2ff8808de12138d57399ddbe988\transformed\runtime-saveable-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\5f59c2ff8808de12138d57399ddbe988\transformed\runtime-saveable-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\f643e9892f9b688d9a9ec3cf407bd58b\transformed\ui-graphics-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\f643e9892f9b688d9a9ec3cf407bd58b\transformed\ui-graphics-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\3e1af7235509544dc02e52292c3a143c\transformed\ui-unit-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\3e1af7235509544dc02e52292c3a143c\transformed\ui-unit-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\62ffb83f45692f30b18d7f6cb3f18e78\transformed\ui-geometry-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\62ffb83f45692f30b18d7f6cb3f18e78\transformed\ui-geometry-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\fff7713d8d5987a1a51cb8a13d48f910\transformed\ui-tooling-preview-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\fff7713d8d5987a1a51cb8a13d48f910\transformed\ui-tooling-preview-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\077857e0cbf23f7c04069e1c08d0784d\transformed\runtime-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\077857e0cbf23f7c04069e1c08d0784d\transformed\runtime-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\b4acad58a397b864a292361a38389233\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\b4acad58a397b864a292361a38389233\transformed\lifecycle-runtime-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\7ac9aa5b9987fa2c03db2b35c4120bf1\transformed\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\7ac9aa5b9987fa2c03db2b35c4120bf1\transformed\lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\686584baae0d6263fccf2039cacb7bbe\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\686584baae0d6263fccf2039cacb7bbe\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\a5e97d43e9317f237e1a5300a1a60bd9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\a5e97d43e9317f237e1a5300a1a60bd9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\e455fa313d1d9c4e4d73461f8982ce98\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\e455fa313d1d9c4e4d73461f8982ce98\transformed\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\88af9119f4cf96bf1da3f0e3ec21fc3f\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\88af9119f4cf96bf1da3f0e3ec21fc3f\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d94ecc8143bdddeecc83c0bf2ae8c6ca\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d94ecc8143bdddeecc83c0bf2ae8c6ca\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ssingh30\.gradle\caches\transforms-3\55b620010d2944ad3a1d1cd5282e9d64\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\ssingh30\.gradle\caches\transforms-3\55b620010d2944ad3a1d1cd5282e9d64\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\ssingh30\.gradle\caches\transforms-3\5bedc937aa8a0f70b79414fdb5d04085\transformed\play-services-wallet-18.1.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] C:\Users\ssingh30\.gradle\caches\transforms-3\5bedc937aa8a0f70b79414fdb5d04085\transformed\play-services-wallet-18.1.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\278edc44ba8cfbb45cddf517275939e0\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\278edc44ba8cfbb45cddf517275939e0\transformed\savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\73c1e20b80045615588643e29865ad3b\transformed\play-services-identity-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\73c1e20b80045615588643e29865ad3b\transformed\play-services-identity-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\457d4fee32eeee8af089b5f7de024560\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\457d4fee32eeee8af089b5f7de024560\transformed\play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\75c230f14bfc037ce36fba69175b43f0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\ssingh30\.gradle\caches\transforms-3\75c230f14bfc037ce36fba69175b43f0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\5180d03979afa7763d89a630c2b8b8a3\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\ssingh30\.gradle\caches\transforms-3\5180d03979afa7763d89a630c2b8b8a3\transformed\activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\d18275172c19b2d21fa47dff6271d688\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\d18275172c19b2d21fa47dff6271d688\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b5ae71e03a85ecff9a62683637d581c3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b5ae71e03a85ecff9a62683637d581c3\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8252149b26dd24e46b6c533261e72d77\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8252149b26dd24e46b6c533261e72d77\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8c7a0ec5e853a0cbc1cbd8130eec2f9e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8c7a0ec5e853a0cbc1cbd8130eec2f9e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\707d2deafe5faedf9479bb77fb9ad09e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\707d2deafe5faedf9479bb77fb9ad09e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a799b2ed778a4a7662336ac8e877caac\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a799b2ed778a4a7662336ac8e877caac\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\01afb79258c8ceafb6178cc0e8f7ec08\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\01afb79258c8ceafb6178cc0e8f7ec08\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\09d222a4e4b813b75e1fefbda2bb31c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\09d222a4e4b813b75e1fefbda2bb31c4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\fc41389d9db325bf607ee525ce4297ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\fc41389d9db325bf607ee525ce4297ec\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1a8bef848433d5082607ffff8cbb55e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\1a8bef848433d5082607ffff8cbb55e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b79b3304caf713fc48742d3f14bef06b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b79b3304caf713fc48742d3f14bef06b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bdd879f3db55a2f04d54a4d1726852cf\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bdd879f3db55a2f04d54a4d1726852cf\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\73efff4d9ba87a8a18076a5d234bfa96\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\73efff4d9ba87a8a18076a5d234bfa96\transformed\appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bde8087affc8b5f7c69dcc89a9f33031\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bde8087affc8b5f7c69dcc89a9f33031\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0e50f0f558f1fe089936555943d0ae60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0e50f0f558f1fe089936555943d0ae60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\ssingh30\.gradle\caches\transforms-3\77840a24de4eff86434320ab6672d543\transformed\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\ssingh30\.gradle\caches\transforms-3\77840a24de4eff86434320ab6672d543\transformed\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8758d1a653725ba0262cd5802a773fa1\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\8758d1a653725ba0262cd5802a773fa1\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ssingh30\.gradle\caches\transforms-3\622665b71a5e0bc531e34b90f3a296d2\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\ssingh30\.gradle\caches\transforms-3\622665b71a5e0bc531e34b90f3a296d2\transformed\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\ssingh30\.gradle\caches\transforms-3\bfad5d851342d1ed67694643b40debfc\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\13fdfc3487dcc7902e81bf6630d9ff29\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ssingh30\.gradle\caches\transforms-3\13fdfc3487dcc7902e81bf6630d9ff29\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\996b805b254ddcfe36b30dddef516a4e\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\996b805b254ddcfe36b30dddef516a4e\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\231e37bfcbf8948e36521ffb2a2d7a62\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\231e37bfcbf8948e36521ffb2a2d7a62\transformed\lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\169a3f17b5faa0e7c970fc3bdda67c8c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\169a3f17b5faa0e7c970fc3bdda67c8c\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a87f3349edb1c2fa52486bc3126d9e64\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\ssingh30\.gradle\caches\transforms-3\a87f3349edb1c2fa52486bc3126d9e64\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0923fe33991a49ff4f35a3b57afb918a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\0923fe33991a49ff4f35a3b57afb918a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\aa290e65d7aeabb32e3cfe6b0bb5f902\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\aa290e65d7aeabb32e3cfe6b0bb5f902\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\3acbeaf68de22e884c88b53114c43607\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\3acbeaf68de22e884c88b53114c43607\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e824fc270f306dd6491423ce022c9227\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e824fc270f306dd6491423ce022c9227\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\7746fcf92d726fd3fb1514fb3dc76e7b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\7746fcf92d726fd3fb1514fb3dc76e7b\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\6eced7a5d91b84317cb6f8d1f47e48c8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\6eced7a5d91b84317cb6f8d1f47e48c8\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\177d221c31c34a896e7e092e834cd7b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\177d221c31c34a896e7e092e834cd7b0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\22e750806c7afc8d7421d9289392b060\transformed\ui-util-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\22e750806c7afc8d7421d9289392b060\transformed\ui-util-1.0.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\99efeb78f704cfc822195a06642d890c\transformed\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\99efeb78f704cfc822195a06642d890c\transformed\leakcanary-object-watcher-android-androidx-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\b67a750cb11ac790af5b4bca63828948\transformed\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\b67a750cb11ac790af5b4bca63828948\transformed\leakcanary-object-watcher-android-support-fragments-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\e31b3f4c299ae8ce5d6ed2c26b30af34\transformed\leakcanary-android-utils-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\e31b3f4c299ae8ce5d6ed2c26b30af34\transformed\leakcanary-android-utils-2.7\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cbb39a3fff1ea552fac28a53625bc9dc\transformed\curtains-1.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] C:\Users\ssingh30\.gradle\caches\transforms-3\cbb39a3fff1ea552fac28a53625bc9dc\transformed\curtains-1.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\47ae735cba79aed851eef028bbeff23b\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\ssingh30\.gradle\caches\transforms-3\47ae735cba79aed851eef028bbeff23b\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:69
+	android:exported
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-66
+	android:name
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-80
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-21:69
+	android:exported
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from [:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-82
+queries
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-14:15
+package#com.android.chrome
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-51
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-20:57
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:57
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:57
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:58
+	android:windowSoftInputMode
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-37:61
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-72
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-60:20
+	android:launchMode
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-44
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-36
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-85
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-59:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/com.stripe.example+data:scheme:stripesdk
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-59:29
+action#android.intent.action.VIEW
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:25-66
+category#android.intent.category.DEFAULT
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:17-78
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:27-75
+data
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:17-58:50
+	android:path
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:21-53
+	android:host
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:21-54
+	android:scheme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:21-47
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:9-64:57
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-54
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-114
+activity#com.stripe.android.googlepaylauncher.StripeGooglePayActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:9-68:66
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-88
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:9-72:66
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-63
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:13-90
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:9-76:66
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:13-63
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:13-103
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:9-80:62
+	android:exported
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:13-37
+	android:theme
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:13-59
+	android:name
+		ADDED from [:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-107
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:10:9-13:54
+	android:exported
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:13:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:11:13-81
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:26:13-71
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:24:13-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:19-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\a8476da022d3be1b1b8fe417b39f2cc2\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:27:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:25-88
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:9:13-64

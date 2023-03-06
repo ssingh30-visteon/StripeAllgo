@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stripe:stripe-3ds2-android:6.1.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0ab41d6cec6609941d79545945c6e638/transformed/stripe-3ds2-android-6.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0ab41d6cec6609941d79545945c6e638/transformed/stripe-3ds2-android-6.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0ab41d6cec6609941d79545945c6e638/transformed/stripe-3ds2-android-6.1.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-3ds2-android/6.1.2/ce649b5db0231fe80549cedb5e077ac1b83d01c1/stripe-3ds2-android-6.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

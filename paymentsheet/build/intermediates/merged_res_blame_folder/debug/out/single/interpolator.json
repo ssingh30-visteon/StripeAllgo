@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\88af9119f4cf96bf1da3f0e3ec21fc3f\\transformed\\appcompat-1.3.1\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    }
+]

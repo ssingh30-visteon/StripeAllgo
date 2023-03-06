@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StripeAppstore-0.3.3.iml" filepath="$PROJECT_DIR$/.idea/modules/StripeAppstore-0.3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet-example/StripeAppstore-0.3.3.cardverificationsheet-example.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/cardverificationsheet/StripeAppstore-0.3.3.cardverificationsheet.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.iml" filepath="$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/example/StripeAppstore-0.3.3.example.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.iml" filepath="$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.iml" filepath="$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/payments-core/StripeAppstore-0.3.3.payments-core.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.main.iml" filepath="$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/payments/StripeAppstore-0.3.3.payments.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet-example/StripeAppstore-0.3.3.paymentsheet-example.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/paymentsheet/StripeAppstore-0.3.3.paymentsheet.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.iml" filepath="$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.main.iml" filepath="$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/stripe-test-e2e/StripeAppstore-0.3.3.stripe-test-e2e.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.main.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/wechatpay/StripeAppstore-0.3.3.wechatpay.unitTest.iml" />
+    </modules>
+  </component>
+</project>

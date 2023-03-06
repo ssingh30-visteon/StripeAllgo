@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator-v21\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\interpolator-v21\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator-v21\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\interpolator-v21\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\interpolator-v21\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\686584baae0d6263fccf2039cacb7bbe\\transformed\\material-1.4.0\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
+    }
+]

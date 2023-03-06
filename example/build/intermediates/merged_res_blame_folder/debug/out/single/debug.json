@@ -1,0 +1,322 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_card_brands_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\card_brands_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon_grabpay.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon_grabpay.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_upi_waiting_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\upi_waiting_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pay_with_google_button_background_image_focused.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xhdpi\\pay_with_google_button_background_image_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_launcher_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launcher_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_netbanking_payment_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\netbanking_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\color_card_form_view_bg_color_overriden.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\color\\card_form_view_bg_color_overriden.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_customer_session_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\customer_session_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_polling_list_headers.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\polling_list_headers.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_connect_example_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\connect_example_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_token_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\token_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_pay_with_google_button_background_image.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxhdpi\\pay_with_google_button_background_image.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon__eps.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon__eps.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_create_card_payment_method_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_payment_method_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pay_with_google_button_background_image_pressed.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xhdpi\\pay_with_google_button_background_image_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_dropdown_menu_popup_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\dropdown_menu_popup_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_payment_auth_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_auth_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_payment_session_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_session_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_klarna_payment_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\klarna_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_pay_with_google_button_background_image.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxxhdpi\\pay_with_google_button_background_image.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_google_pay_activity_playground.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_activity_playground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_pay_with_google_button_background_image_pressed.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxxhdpi\\pay_with_google_button_background_image_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_launch_payment_session_fragment.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launch_payment_session_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_pay_with_google_button_background_image_pressed.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxhdpi\\pay_with_google_button_background_image_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_launcher_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\launcher_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon__bancontact.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon__bancontact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_sofort_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\sofort_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_pay_with_google_button_background_image_pressed.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-hdpi\\pay_with_google_button_background_image_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_bacs_debit_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\bacs_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon__p24.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon__p24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_upi_payment_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\upi_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_pay_with_google_button_background_image_focused.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-mdpi\\pay_with_google_button_background_image_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_create_sepa_debit_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_sepa_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_google_pay_button.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_payment_method_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\payment_method_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon__giropay.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon__giropay.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_pay_with_google_button_background.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\pay_with_google_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_pay_with_google_button_overlay.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\pay_with_google_button_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_card_brand_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\card_brand_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_credit_card.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_add_payment_method_footer.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\add_payment_method_footer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_cancel.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_pay_with_google_button_background_image.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-hdpi\\pay_with_google_button_background_image.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_sources_list_item.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\sources_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_pay_with_google_button_background_image_pressed.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-mdpi\\pay_with_google_button_background_image_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_pay_with_google_button_content.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\pay_with_google_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_create_card_source_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_source_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_pay_with_google_button_background_image.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xhdpi\\pay_with_google_button_background_image.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_brandicon__oxxo.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_brandicon__oxxo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_klarna_source_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\klarna_source_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_google_pay_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\google_pay_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_simple_payment_method_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\simple_payment_method_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_create_card_token_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\create_card_token_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_pay_with_google_button_background_image_focused.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxxhdpi\\pay_with_google_button_background_image_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\color_threeds2_footer_header.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\color\\threeds2_footer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_pay_with_google_button_background_image_focused.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-hdpi\\pay_with_google_button_background_image_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_fragments_example_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\fragments_example_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable_ic_shipping_method.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable\\ic_shipping_method.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_bank_selector_payment_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\bank_selector_payment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_pay_with_google_button_background_image.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-mdpi\\pay_with_google_button_background_image.9.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\layout_becs_debit_activity.xml.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\layout\\becs_debit_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_pay_with_google_button_background_image_focused.9.png.flat",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\example\\res\\drawable-xxhdpi\\pay_with_google_button_background_image_focused.9.png"
+    }
+]

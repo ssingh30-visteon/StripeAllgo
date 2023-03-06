@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_cvc.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\res\\drawable-night\\stripe_ic_cvc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_paymentsheet_cvc.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\res\\drawable-night\\stripe_ic_paymentsheet_cvc.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_cvc_amex.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\res\\drawable-night\\stripe_ic_cvc_amex.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_unknown.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\res\\drawable-night\\stripe_ic_unknown.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\payments-core\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\ic_arrow.xml",
+        "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\0ab41d6cec6609941d79545945c6e638\\transformed\\stripe-3ds2-android-6.1.2\\res\\drawable-night-v8\\ic_arrow.xml"
+    }
+]

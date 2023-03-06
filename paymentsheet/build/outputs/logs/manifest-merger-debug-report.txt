@@ -1,0 +1,51 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:2:1-19:12
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:5:5-18:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:7:9-52
+	android:supportsRtl
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:8:9-35
+	android:networkSecurityConfig
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:6:9-69
+	android:usesCleartextTraffic
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:9:9-44
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:10:9-13:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:13:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:12:13-66
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:11:13-49
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:14:9-17:40
+	android:exported
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:16:13-66
+	android:name
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml:15:13-51
+uses-sdk
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\src\main\AndroidManifest.xml

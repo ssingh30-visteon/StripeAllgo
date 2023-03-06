@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stripe.android.paymentsheet">
+
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".PaymentSheetActivity"
+            android:theme="@style/StripePaymentSheetDefaultTheme"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentOptionsActivity"
+            android:theme="@style/StripePaymentSheetDefaultTheme"
+            android:exported="false" />
+    </application>
+</manifest>
