@@ -1063,6 +1063,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color appstore_hint_color
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark

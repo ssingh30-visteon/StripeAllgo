@@ -13,6 +13,7 @@ attr? countryItemLayout
 attr? shouldRequirePostalCode
 attr? shouldRequireUsZipCode
 attr? shouldShowPostalCode
+color appstore_hint_color
 color stripe_accent_color_default
 color stripe_add_payment_method_pressed
 color stripe_card_form_view_background_default

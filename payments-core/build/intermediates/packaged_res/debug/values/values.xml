@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="appstore_hint_color">#9e9e9e</color>
     <color name="stripe_accent_color_default">#ff2296f3</color>
     <color name="stripe_add_payment_method_pressed">#3332325d</color>
     <color name="stripe_card_form_view_background_default">@android:color/transparent</color>
@@ -332,7 +333,7 @@
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
         <item name="android:textSize">14sp</item>
-        <!--<item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>-->
+        
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
     </style>

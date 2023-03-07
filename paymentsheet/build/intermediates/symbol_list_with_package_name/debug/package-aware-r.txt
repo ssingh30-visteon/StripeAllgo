@@ -1066,6 +1066,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color appstore_hint_color
 color appstore_stripe_color_black
 color appstore_stripe_color_transparent
 color appstore_stripe_color_white

@@ -9,6 +9,7 @@
         android:id="@+id/card"
         style="@style/StripePaymentOptionItemCard"
         android:duplicateParentState="true"
+        app:cardCornerRadius="28dp"
         app:layout_constraintBottom_toTopOf="@id/label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -145,7 +145,7 @@ internal abstract class BaseSheetActivity<ResultType> : AppCompatActivity() {
             )
         } else {
             ToolbarResources(
-                R.drawable.stripe_paymentsheet_toolbar_back,
+                R.drawable.stripe_paymentsheet_toolbar_close,
                 R.string.stripe_paymentsheet_back
             )
         }

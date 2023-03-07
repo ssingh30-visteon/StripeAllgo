@@ -1065,6 +1065,7 @@ int color accent_material_dark 0x0
 int color accent_material_light 0x0
 int color androidx_core_ripple_material_light 0x0
 int color androidx_core_secondary_text_default_material_light 0x0
+int color appstore_hint_color 0x0
 int color appstore_stripe_color_black 0x0
 int color appstore_stripe_color_transparent 0x0
 int color appstore_stripe_color_white 0x0
