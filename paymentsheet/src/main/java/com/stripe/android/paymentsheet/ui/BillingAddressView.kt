@@ -12,6 +12,7 @@ import android.view.View.OnFocusChangeListener
 import android.widget.EditText
 import android.widget.FrameLayout
 import androidx.annotation.VisibleForTesting
+import androidx.core.content.ContextCompat
 import androidx.core.os.ConfigurationCompat
 import androidx.core.view.isVisible
 import androidx.core.widget.doAfterTextChanged
@@ -25,7 +26,7 @@ import com.stripe.android.paymentsheet.databinding.StripeBillingAddressLayoutBin
 import com.stripe.android.view.Country
 import com.stripe.android.view.CountryUtils
 import com.stripe.android.view.PostalCodeValidator
-import java.util.Locale
+import java.util.*
 import kotlin.properties.Delegates
 
 internal class BillingAddressView @JvmOverloads constructor(
@@ -301,7 +302,7 @@ internal class BillingAddressView @JvmOverloads constructor(
 
     private fun updatePostalCodeView(countryCode: CountryCode?) {
         val shouldShowPostalCode = countryCode == null ||
-            CountryUtils.doesCountryUsePostalCode(countryCode)
+                CountryUtils.doesCountryUsePostalCode(countryCode)
         postalCodeLayout.isVisible = shouldShowPostalCode
 
         val shouldShowPostalCodeContainer =
@@ -315,6 +316,13 @@ internal class BillingAddressView @JvmOverloads constructor(
             PostalCodeConfig.Global
         }
 
+        viewBinding.postalCode.setHintTextColor(
+            ContextCompat.getColor(
+                context,
+                R.color.appstore_hint_color
+            )
+        )
+        viewBinding.postalCode.background = ContextCompat.getDrawable(context,R.drawable.stripe_paymentsheet_edittext_bg)
         viewBinding.postalCode.hint = resources.getString(
             if (isUS(countryCode)) {
                 R.string.acc_label_zip_short
