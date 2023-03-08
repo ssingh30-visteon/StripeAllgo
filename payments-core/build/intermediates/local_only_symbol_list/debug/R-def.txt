@@ -90,6 +90,9 @@ dimen stripe_shipping_widget_horizontal_margin
 dimen stripe_shipping_widget_outer_margin
 dimen stripe_shipping_widget_vertical_margin
 dimen stripe_toolbar_elevation
+drawable edit_text_bg
+drawable edit_text_default_bg
+drawable edittext_bg
 drawable pop_up_background
 drawable stripe_card_form_view_text_input_layout_background
 drawable stripe_card_progress_background

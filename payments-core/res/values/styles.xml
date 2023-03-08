@@ -28,7 +28,7 @@
 
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
     </style>
 
     <style name="Stripe.Base.BecsDebitWidget.EditText" parent="Widget.AppCompat.EditText">
