@@ -162,6 +162,10 @@
     <string name="stripe_paymentsheet_setup_button_label">Set up</string>
     <string name="stripe_paymentsheet_test_mode_indicator">TEST MODE</string>
     <string name="stripe_paymentsheet_total_amount">Total: %s</string>
+    <style name="AppstoreCheckboxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
     <style name="StripeActionButtonStyle" parent="Widget.AppCompat.ActionButton">
         <item name="android:paddingStart">16dp</item>
         <item name="android:paddingEnd">16dp</item>
@@ -201,8 +205,8 @@
         <item name="cardBackgroundColor">@android:color/transparent</item>
     </style>
     <style name="StripePaymentOptionItemCard">
-        <item name="android:layout_width">220dp</item> <!--159dp-->
-        <item name="android:layout_height">148dp</item> <!--99dp-->
+        <item name="android:layout_width">159dp</item> <!--159dp-->
+        <item name="android:layout_height">99dp</item> <!--99dp-->
         <item name="android:layout_marginStart">0dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
