@@ -1966,6 +1966,7 @@ int drawable btn_radio_off_mtrl 0x0
 int drawable btn_radio_off_to_on_mtrl_animation 0x0
 int drawable btn_radio_on_mtrl 0x0
 int drawable btn_radio_on_to_off_mtrl_animation 0x0
+int drawable checkbox_selector 0x0
 int drawable common_full_open_on_phone 0x0
 int drawable common_google_signin_btn_icon_dark 0x0
 int drawable common_google_signin_btn_icon_dark_focused 0x0
@@ -1993,6 +1994,8 @@ int drawable design_snackbar_background 0x0
 int drawable googleg_disabled_color_18 0x0
 int drawable googleg_standard_color_18 0x0
 int drawable ic_arrow 0x0
+int drawable ic_checkbox_checked 0x0
+int drawable ic_checkbox_unchecked 0x0
 int drawable ic_clock_black_24dp 0x0
 int drawable ic_indicator 0x0
 int drawable ic_keyboard_black_24dp 0x0
@@ -3290,6 +3293,7 @@ int style Animation_AppCompat_DropDownUp 0x0
 int style Animation_AppCompat_Tooltip 0x0
 int style Animation_Design_BottomSheetDialog 0x0
 int style Animation_MaterialComponents_BottomSheetDialog 0x0
+int style AppstoreCheckboxStyle 0x0
 int style BaseStripe3DS2EditText 0x0
 int style BaseStripe3DS2TextInputLayout 0x0
 int style BaseStripe3DS2Theme 0x0

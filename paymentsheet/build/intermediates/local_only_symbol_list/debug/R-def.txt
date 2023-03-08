@@ -93,6 +93,9 @@ dimen stripe_paymentsheet_primary_button_icon_padding
 dimen stripe_paymentsheet_primary_button_icon_size
 dimen stripe_paymentsheet_primary_button_margin
 dimen stripe_paymentsheet_toolbar_elevation
+drawable checkbox_selector
+drawable ic_checkbox_checked
+drawable ic_checkbox_unchecked
 drawable pop_up_background
 drawable round_add_circle_outline_24
 drawable stripe_google_pay_mark
@@ -322,6 +325,7 @@ string stripe_paymentsheet_sepa_mandate
 string stripe_paymentsheet_setup_button_label
 string stripe_paymentsheet_test_mode_indicator
 string stripe_paymentsheet_total_amount
+style AppstoreCheckboxStyle
 style StripeActionButtonStyle
 style StripeAddPaymentMethodItemCard
 style StripeBaseTheme

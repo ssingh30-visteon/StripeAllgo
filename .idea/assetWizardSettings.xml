@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialiconsround/add_circle_outline/round_add_circle_outline_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/radio_button_unchecked/baseline_radio_button_unchecked_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -34,7 +34,7 @@
                         <option name="values">
                           <map>
                             <entry key="color" value="e7792b" />
-                            <entry key="outputName" value="round_add_circle_outline_24" />
+                            <entry key="outputName" value="ic_checkbox_unchecked" />
                             <entry key="sourceFile" value="C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3" />
                           </map>
                         </option>
