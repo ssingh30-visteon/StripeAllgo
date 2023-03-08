@@ -323,6 +323,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
+        <item name="background">@drawable/edit_text_bg</item>
     </style>
     <style name="StripePaymentSheetFormDivider">
         <item name="android:layout_width">match_parent</item>
