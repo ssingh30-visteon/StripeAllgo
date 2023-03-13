@@ -1,6 +1,8 @@
 package com.stripe.android.paymentsheet
 
+import android.app.Dialog
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.style.ForegroundColorSpan
@@ -8,15 +10,14 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
+import android.widget.Button
 import androidx.annotation.VisibleForTesting
-import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.stripe.android.paymentsheet.analytics.EventReporter
 import com.stripe.android.paymentsheet.databinding.FragmentPaymentsheetPaymentMethodsListBinding
 import com.stripe.android.paymentsheet.model.FragmentConfig
 import com.stripe.android.paymentsheet.model.PaymentSelection
-import com.stripe.android.paymentsheet.model.SupportedPaymentMethod
 import com.stripe.android.paymentsheet.ui.BaseSheetActivity
 import com.stripe.android.paymentsheet.viewmodels.BaseSheetViewModel
 
@@ -26,6 +27,7 @@ internal abstract class BasePaymentMethodsListFragment(
 ) : Fragment(
     R.layout.fragment_paymentsheet_payment_methods_list
 ) {
+    private lateinit var mConfirmationDialog: Dialog
     abstract val sheetViewModel: BaseSheetViewModel<*>
 
     protected lateinit var config: FragmentConfig
@@ -161,32 +163,61 @@ internal abstract class BasePaymentMethodsListFragment(
         sheetViewModel.updateSelection(paymentSelection)
     }
 
-    private fun deletePaymentMethod(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) =
-        AlertDialog.Builder(requireActivity())
-            .setTitle(
-                resources.getString(
-                    R.string.stripe_paymentsheet_remove_pm,
-                    SupportedPaymentMethod.fromCode(item.paymentMethod.type?.code)
-                        ?.run {
-                            resources.getString(
-                                displayNameResource
-                            )
-                        }
-                )
+    private fun deletePaymentMethod(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
+        showConfirmationDialog(item)
+    }
+
+    /*AlertDialog.Builder(requireActivity())
+        .setTitle(
+            resources.getString(
+                R.string.stripe_paymentsheet_remove_pm,
+                SupportedPaymentMethod.fromCode(item.paymentMethod.type?.code)
+                    ?.run {
+                        resources.getString(
+                            displayNameResource
+                        )
+                    }
             )
-            .setMessage(item.getDescription(resources))
-            .setCancelable(true)
-            .setNegativeButton(R.string.cancel) { dialog, _ ->
-                dialog.dismiss()
-            }
-            .setPositiveButton(R.string.remove) { _, _ ->
-                adapter.removeItem(item)
-                sheetViewModel.removePaymentMethod(item.paymentMethod)
-            }
-            .create()
-            .show()
+        )
+        .setMessage(item.getDescription(resources))
+        .setCancelable(true)
+        .setNegativeButton(R.string.cancel) { dialog, _ ->
+            dialog.dismiss()
+        }
+        .setPositiveButton(R.string.remove) { _, _ ->
+            adapter.removeItem(item)
+            sheetViewModel.removePaymentMethod(item.paymentMethod)
+        }
+        .create()
+        .show()*/
+
+
+    private fun showConfirmationDialog(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
+        mConfirmationDialog = Dialog(requireContext())
+        mConfirmationDialog.setContentView(R.layout.layout_warning_remove_card_dialog)
+        mConfirmationDialog.setCanceledOnTouchOutside(false)
+        mConfirmationDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        val btnConfirmNo: Button =
+            mConfirmationDialog.findViewById<Button>(R.id.btn_warning_confirm_no)
+        val btnConfirmYes: Button =
+            mConfirmationDialog.findViewById<Button>(R.id.btn_warning_confirm_yes)
+        /* val text: TextView =
+             mConfirmationDialog.findViewById<TextView>(R.id.tv_warning_uninstall_content)
+         text.setText(appInfo.getName())*/
+        btnConfirmYes.setOnClickListener {
+            adapter.removeItem(item)
+            sheetViewModel.removePaymentMethod(item.paymentMethod)
+            mConfirmationDialog.dismiss()
+        }
+        btnConfirmNo.setOnClickListener {
+            mConfirmationDialog.dismiss()
+        }
+        mConfirmationDialog.show()
+    }
 
     private companion object {
         private const val IS_EDITING = "is_editing"
     }
+
+
 }

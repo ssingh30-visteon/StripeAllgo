@@ -46,8 +46,8 @@
         android:id="@+id/delete_icon"
         style="@style/StripePaymentOptionItemDeleteIcon"
         android:duplicateParentState="true"
-        android:layout_width="@dimen/stripe_paymentsheet_minimum_tap_size"
-        android:layout_height="@dimen/stripe_paymentsheet_minimum_tap_size"
+        android:layout_width="@dimen/stripe_paymentsheet_add_pm_card_height"
+        android:layout_height="@dimen/stripe_paymentsheet_add_pm_card_height"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription" />
