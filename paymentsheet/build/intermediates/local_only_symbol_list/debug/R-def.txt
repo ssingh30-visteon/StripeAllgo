@@ -59,6 +59,9 @@ color stripe_text_color_secondary
 color stripe_title_text_color
 color stripe_toolbar_color_default
 color stripe_toolbar_color_default_dark
+dimen app_text_size_19_sp
+dimen app_text_size_25_sp
+dimen app_text_size_30_sp
 dimen stripe_appstore_button_height
 dimen stripe_paymentsheet_add_payment_method_form_stroke_width
 dimen stripe_paymentsheet_add_pm_card_elevation
@@ -93,6 +96,10 @@ dimen stripe_paymentsheet_primary_button_icon_padding
 dimen stripe_paymentsheet_primary_button_icon_size
 dimen stripe_paymentsheet_primary_button_margin
 dimen stripe_paymentsheet_toolbar_elevation
+drawable button_secondary
+drawable button_secondary_disabled
+drawable button_secondary_normal
+drawable button_secondary_pressed
 drawable checkbox_selector
 drawable edit_text_bg
 drawable edit_text_default_bg
@@ -178,6 +185,8 @@ id borderless
 id bottom_sheet
 id bottom_space
 id brand_icon
+id btn_warning_confirm_no
+id btn_warning_confirm_yes
 id button_container
 id buy_button
 id card
@@ -209,6 +218,7 @@ id icon
 id label
 id lock_icon
 id message
+id or_tv
 id payment_method_fragment_container
 id payment_methods_recycler
 id plus_icon
@@ -234,6 +244,7 @@ id title
 id toolbar
 id top_container
 id total
+id tv_warning_logout_header
 layout activity_payment_options
 layout activity_payment_sheet
 layout fragment_paymentsheet_add_card
@@ -244,6 +255,7 @@ layout layout_paymentsheet_add_new_payment_method_item
 layout layout_paymentsheet_add_payment_method_card_view
 layout layout_paymentsheet_google_pay_item
 layout layout_paymentsheet_payment_method_item
+layout layout_warning_remove_card_dialog
 layout primary_button
 layout stripe_billing_address_layout
 layout stripe_country_dropdown_item
@@ -252,6 +264,8 @@ layout stripe_google_pay_divider
 layout stripe_horizontal_divider
 layout stripe_vertical_divider
 menu paymentsheet_payment_methods_list
+string action_no
+string action_yes
 string add_new_payment_method
 string address_label_address_line2
 string address_label_ae_emirate
@@ -272,6 +286,7 @@ string address_label_oblast
 string address_label_post_town
 string address_label_suburb
 string address_label_village_township
+string app_store_delete_card
 string bank_account_ending_in
 string billing_details
 string blank_and_required
@@ -286,6 +301,7 @@ string iban_incomplete
 string iban_invalid
 string iban_invalid_country
 string iban_invalid_start
+string or_text
 string paymentsheet_payment_method_item_card_number
 string remove
 string stripe_failure_connection_error
@@ -359,6 +375,7 @@ style StripePaymentSheetTotalLabel
 style StripePaymentSheetTotalLabelCustomAppstore
 style StripeToolBarStyle
 style StripeVerticalDivider
+style button_secondary
 styleable BecsDebitWidget companyName
 styleable CardElement shouldShowPostalCode shouldRequirePostalCode shouldRequireUsZipCode
 styleable CardInputView cardHintText cardTint cardTextErrorColor android:focusedByDefault

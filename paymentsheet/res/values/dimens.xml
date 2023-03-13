@@ -43,4 +43,6 @@
     <!--CardFormView-->
 
     <dimen name="stripe_appstore_button_height">76dp</dimen>
+    <dimen name="app_text_size_30_sp">30sp</dimen>
+    <dimen name="app_text_size_19_sp">19sp</dimen>
 </resources>

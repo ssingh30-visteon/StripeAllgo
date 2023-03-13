@@ -45,6 +45,9 @@
     <color name="stripe_title_text_color">@android:color/white</color>
     <color name="stripe_toolbar_color_default">#ff3f51b5</color>
     <color name="stripe_toolbar_color_default_dark">#ff324090</color>
+    <dimen name="app_text_size_19_sp">19sp</dimen>
+    <dimen name="app_text_size_25_sp">25sp</dimen>
+    <dimen name="app_text_size_30_sp">30sp</dimen>
     <dimen name="stripe_appstore_button_height">76dp</dimen>
     <dimen name="stripe_paymentsheet_add_payment_method_form_stroke_width">1dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation">0dp</dimen>
@@ -86,6 +89,8 @@
     <item name="stripe_payment_methods_add_fpx" type="id"/>
     <item name="stripe_payment_methods_add_netbanking" type="id"/>
     <item name="stripe_payment_methods_footer" type="id"/>
+    <string name="action_no">No</string>
+    <string name="action_yes">Yes</string>
     <string name="add_new_payment_method">Add a new payment method</string>
     <string name="address_label_address_line2">Address line 2</string>
     <string name="address_label_ae_emirate">Emirate</string>
@@ -106,6 +111,7 @@
     <string name="address_label_post_town">Post or Town</string>
     <string name="address_label_suburb">Suburb</string>
     <string name="address_label_village_township">Village or Township</string>
+    <string name="app_store_delete_card">Are you sure you want to delete this card?</string>
     <string name="bank_account_ending_in">Remove bank account ending in %s</string>
     <string name="billing_details">Billing address</string>
     <string name="blank_and_required">This field cannot be blank.</string>
@@ -120,6 +126,7 @@
     <string name="iban_invalid">The IBAN you entered is invalid.</string>
     <string name="iban_invalid_country">The IBAN you entered is invalid, \"%s\" is not a supported country code.</string>
     <string name="iban_invalid_start">Your IBAN should start with a two-letter country code.</string>
+    <string name="or_text">or</string>
     <string name="paymentsheet_payment_method_item_card_number">····%1$s</string>
     <string name="remove">Remove</string>
     <string name="stripe_failure_connection_error">We are experiencing issues connecting to our payments provider. Please check your internet connection and try again.</string>
@@ -199,12 +206,14 @@
         <item name="android:layout_margin">2dp</item>
         <item name="android:checkable">false</item>
         <item name="cardElevation">0dp</item>
-        
+        <!--<item name="strokeColor">@color/stripe_paymentsheet_add_payment_method_form_stroke</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_add_payment_method_form_stroke_width
+        </item>-->
         <item name="cardBackgroundColor">@android:color/transparent</item>
     </style>
     <style name="StripePaymentOptionItemCard">
-        <item name="android:layout_width">159dp</item> 
-        <item name="android:layout_height">99dp</item> 
+        <item name="android:layout_width">159dp</item> <!--159dp-->
+        <item name="android:layout_height">99dp</item> <!--99dp-->
         <item name="android:layout_marginStart">0dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
@@ -231,7 +240,7 @@
     <style name="StripePaymentOptionItemCheckIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_check_circle</item>
-        
+        <!-- modify the bottom and end layout to correctly position the check -->
         <item name="android:layout_marginBottom">11dp</item>
         <item name="android:paddingEnd">-2dp</item>
     </style>
@@ -244,7 +253,7 @@
     <style name="StripePaymentOptionItemDeleteIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
-        
+        <!-- modify the bottom and end layout to correctly position the icon -->
         <item name="android:paddingBottom">24dp</item>
         <item name="android:paddingEnd">-25dp</item>
         <item name="android:scaleType">center</item>
@@ -322,7 +331,7 @@
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
         <item name="fontFamily">@font/font_roboto_medium</item>
         <item name="android:lineSpacingExtra">5sp</item>
-        
+        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginStart">1dp</item>
         <item name="android:layout_marginEnd">1dp</item>
@@ -403,6 +412,15 @@
         <item name="android:layout_width">1dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@color/appstore_stripe_color_transparent</item>
+    </style>
+    <style name="button_secondary" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:height">60dp</item>
+        <item name="android:textSize">@dimen/app_text_size_25_sp</item>
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
     </style>
     <declare-styleable name="BecsDebitWidget">
         <attr format="string" name="companyName"/>

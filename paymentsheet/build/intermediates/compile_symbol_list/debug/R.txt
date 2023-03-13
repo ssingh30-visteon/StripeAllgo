@@ -1432,6 +1432,9 @@ int dimen abc_text_size_subtitle_material_toolbar 0x0
 int dimen abc_text_size_title_material 0x0
 int dimen abc_text_size_title_material_toolbar 0x0
 int dimen action_bar_size 0x0
+int dimen app_text_size_19_sp 0x0
+int dimen app_text_size_25_sp 0x0
+int dimen app_text_size_30_sp 0x0
 int dimen appcompat_dialog_background_inset 0x0
 int dimen browser_actions_context_menu_max_width 0x0
 int dimen browser_actions_context_menu_min_padding 0x0
@@ -1966,6 +1969,10 @@ int drawable btn_radio_off_mtrl 0x0
 int drawable btn_radio_off_to_on_mtrl_animation 0x0
 int drawable btn_radio_on_mtrl 0x0
 int drawable btn_radio_on_to_off_mtrl_animation 0x0
+int drawable button_secondary 0x0
+int drawable button_secondary_disabled 0x0
+int drawable button_secondary_normal 0x0
+int drawable button_secondary_pressed 0x0
 int drawable checkbox_selector 0x0
 int drawable common_full_open_on_phone 0x0
 int drawable common_google_signin_btn_icon_dark 0x0
@@ -2275,6 +2282,8 @@ int id browser_actions_menu_items 0x0
 int id browser_actions_menu_view 0x0
 int id bsb_edit_text 0x0
 int id bsb_text_input_layout 0x0
+int id btn_warning_confirm_no 0x0
+int id btn_warning_confirm_yes 0x0
 int id buttonPanel 0x0
 int id button_container 0x0
 int id buyButton 0x0
@@ -2539,6 +2548,7 @@ int id notification_main_column 0x0
 int id notification_main_column_container 0x0
 int id off 0x0
 int id on 0x0
+int id or_tv 0x0
 int id outline 0x0
 int id outward 0x0
 int id packed 0x0
@@ -2719,6 +2729,7 @@ int id transition_position 0x0
 int id transition_scene_layoutid_cache 0x0
 int id transition_transform 0x0
 int id triangle 0x0
+int id tv_warning_logout_header 0x0
 int id unchecked 0x0
 int id uniform 0x0
 int id unlabeled 0x0
@@ -2857,6 +2868,7 @@ int layout layout_paymentsheet_add_new_payment_method_item 0x0
 int layout layout_paymentsheet_add_payment_method_card_view 0x0
 int layout layout_paymentsheet_google_pay_item 0x0
 int layout layout_paymentsheet_payment_method_item 0x0
+int layout layout_warning_remove_card_dialog 0x0
 int layout masked_card_row 0x0
 int layout masked_card_view 0x0
 int layout material_chip_input_combo 0x0
@@ -2996,6 +3008,8 @@ int string acc_label_expiry_date 0x0
 int string acc_label_expiry_date_node 0x0
 int string acc_label_zip 0x0
 int string acc_label_zip_short 0x0
+int string action_no 0x0
+int string action_yes 0x0
 int string add_new_payment_method 0x0
 int string added 0x0
 int string address_city_required 0x0
@@ -3058,6 +3072,7 @@ int string address_required 0x0
 int string address_state_required 0x0
 int string address_zip_invalid 0x0
 int string address_zip_postal_invalid 0x0
+int string app_store_delete_card 0x0
 int string appbar_scrolling_view_behavior 0x0
 int string bank_account_ending_in 0x0
 int string becs_mandate_acceptance 0x0
@@ -3205,6 +3220,7 @@ int string navigation_menu 0x0
 int string not_selected 0x0
 int string off 0x0
 int string on 0x0
+int string or_text 0x0
 int string password_toggle_content_description 0x0
 int string path_password_eye 0x0
 int string path_password_eye_mask_strike_through 0x0
@@ -4087,6 +4103,7 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x0
 int style Widget_MaterialComponents_Toolbar_Surface 0x0
 int style Widget_MaterialComponents_Tooltip 0x0
 int style Widget_Support_CoordinatorLayout 0x0
+int style button_secondary 0x0
 int[] styleable ActionBar { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1
