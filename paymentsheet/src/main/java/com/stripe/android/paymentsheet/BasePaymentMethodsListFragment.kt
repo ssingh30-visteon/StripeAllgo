@@ -198,9 +198,11 @@ internal abstract class BasePaymentMethodsListFragment(
         mConfirmationDialog.setCanceledOnTouchOutside(false)
         mConfirmationDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
         val btnConfirmNo: Button =
-            mConfirmationDialog.findViewById<Button>(R.id.btn_warning_confirm_no)
+            mConfirmationDialog.findViewById(R.id.btn_warning_confirm_no)
         val btnConfirmYes: Button =
-            mConfirmationDialog.findViewById<Button>(R.id.btn_warning_confirm_yes)
+            mConfirmationDialog.findViewById(R.id.btn_warning_confirm_yes)
+        btnConfirmNo.background = resources.getDrawable(R.drawable.button_secondary)
+        btnConfirmYes.background = resources.getDrawable(R.drawable.button_secondary)
         /* val text: TextView =
              mConfirmationDialog.findViewById<TextView>(R.id.tv_warning_uninstall_content)
          text.setText(appInfo.getName())*/
