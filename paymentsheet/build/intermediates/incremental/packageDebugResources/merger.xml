@@ -223,8 +223,7 @@
     </style></file><file path="C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\res\values\themes.xml" qualifiers=""><style name="StripeBaseTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorAccent">@color/stripe_accent_color_default</item>
         <item name="colorControlNormal">@color/stripe_control_normal_color_default</item>
-        <item name="colorPrimary">@color/stripe_toolbar_color_default</item>
-        <item name="colorPrimaryDark">@color/stripe_toolbar_color_default_dark</item>
+       
         <item name="titleTextColor">@color/stripe_title_text_color</item>
         <item name="android:textColorSecondary">@color/stripe_text_color_secondary</item>
     </style><style name="StripeDefaultTheme" parent="StripeBaseTheme"/><style name="StripePaymentSheetBaseTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
