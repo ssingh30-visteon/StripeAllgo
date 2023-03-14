@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="appstore_hint_color">#9e9e9e</color>
+    <color name="dialogButtonText">#bfbfbf</color>
     <color name="stripe_accent_color_default">#ff2296f3</color>
     <color name="stripe_add_payment_method_pressed">#3332325d</color>
     <color name="stripe_card_form_view_background_default">@android:color/transparent</color>
@@ -184,7 +185,9 @@
     <string name="title_bank_account">Bank Account</string>
     <string name="title_payment_method">Payment Method</string>
     <string name="title_select_shipping_method">Select Shipping Method</string>
-    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog"/>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="colorAccent">@color/dialogButtonText</item>
+    </style>
     <style name="PayLauncherDefaultTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>

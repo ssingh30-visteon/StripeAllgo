@@ -198,7 +198,7 @@ internal abstract class BasePaymentMethodsListFragment(
 
 
     private fun showConfirmationDialog(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
-        mConfirmationDialog = Dialog(requireContext())
+        mConfirmationDialog = Dialog(requireContext(), R.style.AlertDialogStyle)
         mConfirmationDialog.setContentView(R.layout.layout_warning_remove_card_dialog)
         mConfirmationDialog.setCanceledOnTouchOutside(false)
         mConfirmationDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
@@ -206,8 +206,6 @@ internal abstract class BasePaymentMethodsListFragment(
             mConfirmationDialog.findViewById(R.id.btn_warning_confirm_no)
         val btnConfirmYes: Button =
             mConfirmationDialog.findViewById(R.id.btn_warning_confirm_yes)
-        btnConfirmNo.background = resources.getDrawable(R.drawable.button_secondary)
-        btnConfirmYes.background = resources.getDrawable(R.drawable.button_secondary)
         /* val text: TextView =
              mConfirmationDialog.findViewById<TextView>(R.id.tv_warning_uninstall_content)
          text.setText(appInfo.getName())*/
