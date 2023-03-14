@@ -20,7 +20,7 @@
         android:id="@+id/lock_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/stripe_ic_paymentsheet_primary_button_lock"
+        android:src="@drawable/baseline_lock_24"
         app:tint="@color/appstore_stripe_color_black"
         android:layout_gravity="end|center_vertical"
         android:visibility="gone"

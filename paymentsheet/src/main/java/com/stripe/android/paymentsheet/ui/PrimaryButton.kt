@@ -38,7 +38,7 @@ internal class PrimaryButton @JvmOverloads constructor(
     private val confirmedIcon = viewBinding.confirmedIcon
 
     init {
-        setBackgroundResource(R.drawable.stripe_paymentsheet_primary_button_default_background)
+        setBackgroundResource(R.drawable.stripe_paymentsheet_button_bg)
 
         viewBinding.label.text = getTextAttributeValue(attrs)
 

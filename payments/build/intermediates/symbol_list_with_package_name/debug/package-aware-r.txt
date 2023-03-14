@@ -1066,6 +1066,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color appstore_hint_color
 color appstore_stripe_color_black
 color appstore_stripe_color_transparent
 color appstore_stripe_color_white
@@ -1140,6 +1141,7 @@ color design_fab_stroke_top_inner_color
 color design_fab_stroke_top_outer_color
 color design_icon_tint
 color design_snackbar_background_color
+color dialogButtonText
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -1432,6 +1434,9 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen app_text_size_19_sp
+dimen app_text_size_25_sp
+dimen app_text_size_30_sp
 dimen appcompat_dialog_background_inset
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
@@ -1958,6 +1963,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_lock_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1966,6 +1972,11 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_secondary
+drawable button_secondary_disabled
+drawable button_secondary_normal
+drawable button_secondary_pressed
+drawable checkbox_selector
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1990,9 +2001,15 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dialog_background
+drawable edit_text_bg
+drawable edit_text_default_bg
+drawable edittext_bg
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow
+drawable ic_checkbox_checked
+drawable ic_checkbox_unchecked
 drawable ic_clock_black_24dp
 drawable ic_indicator
 drawable ic_keyboard_black_24dp
@@ -2269,6 +2286,8 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id bsb_edit_text
 id bsb_text_input_layout
+id btn_warning_confirm_no
+id btn_warning_confirm_yes
 id buttonPanel
 id button_container
 id buyButton
@@ -2533,6 +2552,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id or_tv
 id outline
 id outward
 id packed
@@ -2713,6 +2733,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_warning_logout_header
 id unchecked
 id uniform
 id unlabeled
@@ -2851,6 +2872,7 @@ layout layout_paymentsheet_add_new_payment_method_item
 layout layout_paymentsheet_add_payment_method_card_view
 layout layout_paymentsheet_google_pay_item
 layout layout_paymentsheet_payment_method_item
+layout layout_warning_remove_card_dialog
 layout masked_card_row
 layout masked_card_view
 layout material_chip_input_combo
@@ -2990,6 +3012,8 @@ string acc_label_expiry_date
 string acc_label_expiry_date_node
 string acc_label_zip
 string acc_label_zip_short
+string action_no
+string action_yes
 string add_new_payment_method
 string added
 string address_city_required
@@ -3052,6 +3076,8 @@ string address_required
 string address_state_required
 string address_zip_invalid
 string address_zip_postal_invalid
+string allgo_card_ending_in
+string app_store_delete_card
 string appbar_scrolling_view_behavior
 string bank_account_ending_in
 string becs_mandate_acceptance
@@ -3199,6 +3225,7 @@ string navigation_menu
 string not_selected
 string off
 string on
+string or_text
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -3290,6 +3317,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppstoreCheckboxStyle
 style BaseStripe3DS2EditText
 style BaseStripe3DS2TextInputLayout
 style BaseStripe3DS2Theme
@@ -4080,6 +4108,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style button_secondary
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

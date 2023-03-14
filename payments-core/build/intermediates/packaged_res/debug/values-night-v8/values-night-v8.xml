@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="appstore_hint_color">#9e9e9e</color>
+    <color name="dialogButtonText">#bfbfbf</color>
     <color name="stripe_card_form_view_background_default">#1fffffff</color>
     <color name="stripe_card_form_view_background_disabled">#1fffffff</color>
     <color name="stripe_card_form_view_form_border">#3dffffff</color>
@@ -11,6 +13,8 @@
     <color name="stripe_color_text_unselected_secondary_default">#a5a5a5</color>
     <color name="stripe_control_normal_color_default">#e1e1e1</color>
     <color name="stripe_paymentsheet_background">#2e2e2e</color>
+    <color name="stripe_paymentsheet_editetext_hint_color">@android:color/darker_gray</color>
+    <color name="stripe_paymentsheet_editetext_text_color">@android:color/white</color>
     <color name="stripe_paymentsheet_form_border">#3Dffffff</color>
     <color name="stripe_paymentsheet_toolbar_items_color">#FFFFFF</color>
     <color name="stripe_text_color_secondary">@android:color/secondary_text_dark</color>

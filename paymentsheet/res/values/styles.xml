@@ -59,9 +59,8 @@
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
         <!-- modify the bottom and end layout to correctly position the icon -->
-        <item name="android:paddingBottom">24dp</item>
-        <item name="android:paddingEnd">-25dp</item>
-        <item name="android:scaleType">center</item>
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
     </style>
 
     <style name="StripeAddPaymentMethodItemCard">
@@ -82,11 +81,9 @@
     </style>
 
     <style name="StripePaymentSheetPaymentMethodsLabel">
-        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color
-        </item>
-
-        <item name="android:textSize">26sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/font_roboto_bold</item>
         <item name="android:lineSpacingExtra">1sp</item>
         <item name="android:layout_marginStart">6dp</item>
         <item name="android:layout_marginEnd">6dp</item>

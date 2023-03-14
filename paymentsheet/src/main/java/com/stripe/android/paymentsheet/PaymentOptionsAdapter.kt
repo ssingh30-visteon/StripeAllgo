@@ -428,6 +428,18 @@ internal class PaymentOptionsAdapter(
                 )
                 else -> ""
             }
+            fun getStripeAllgoDescription(resources: Resources) = when (paymentMethod.type) {
+                PaymentMethod.Type.Card -> resources.getString(
+                    R.string.allgo_card_ending_in,
+                    paymentMethod.card?.brand,
+                    paymentMethod.card?.last4
+                )
+                PaymentMethod.Type.SepaDebit -> resources.getString(
+                    R.string.bank_account_ending_in,
+                    paymentMethod.sepaDebit?.last4
+                )
+                else -> ""
+            }
         }
     }
 }

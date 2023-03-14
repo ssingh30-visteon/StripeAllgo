@@ -416,6 +416,7 @@
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="androidx_core_ripple_material_light">#1f000000</color>
     <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="appstore_hint_color">#9e9e9e</color>
     <color name="appstore_stripe_color_black">#000000</color>
     <color name="appstore_stripe_color_transparent">#08000000</color>
     <color name="appstore_stripe_color_white">#ffffff</color>
@@ -483,6 +484,7 @@
     <color name="design_fab_stroke_top_inner_color">#1AFFFFFF</color>
     <color name="design_fab_stroke_top_outer_color">#2EFFFFFF</color>
     <color name="design_snackbar_background_color">#323232</color>
+    <color name="dialogButtonText">#bfbfbf</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -564,7 +566,7 @@
     <color name="stripe_paymentsheet_add_pm_card_selected_stroke">#343434</color>
     <color name="stripe_paymentsheet_add_pm_card_unselected_stroke">#E7E7E7</color>
     <color name="stripe_paymentsheet_background">#ffffff</color>
-    <color name="stripe_paymentsheet_country_chevron_color">#000000</color>
+    <color name="stripe_paymentsheet_country_chevron_color">#ffffff</color>
     <color name="stripe_paymentsheet_editetext_hint_color">@android:color/darker_gray</color>
     <color name="stripe_paymentsheet_editetext_text_color">@android:color/white</color>
     <color name="stripe_paymentsheet_elements_background_default">
@@ -700,6 +702,9 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="action_bar_size">16dp</dimen>
+    <dimen name="app_text_size_19_sp">19sp</dimen>
+    <dimen name="app_text_size_25_sp">25sp</dimen>
+    <dimen name="app_text_size_30_sp">30sp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
     <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
@@ -1078,7 +1083,7 @@
     <dimen name="stripe_paymentsheet_add_payment_method_form_stroke_width">1dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation">0dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation_selected">1.5dp</dimen>
-    <dimen name="stripe_paymentsheet_add_pm_card_height">60dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_height">40dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width">1.5dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width_selected">2dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_width">112dp</dimen>
@@ -1092,7 +1097,7 @@
     <dimen name="stripe_paymentsheet_error_textsize">13sp</dimen>
     <dimen name="stripe_paymentsheet_form_textsize">14sp</dimen>
     <dimen name="stripe_paymentsheet_googlepay_button_height">53dp</dimen>
-    <dimen name="stripe_paymentsheet_max_primary_button_height">54dp</dimen>
+    <dimen name="stripe_paymentsheet_max_primary_button_height">60dp</dimen>
     <dimen name="stripe_paymentsheet_minimum_tap_size">48dp</dimen>
     <dimen name="stripe_paymentsheet_outer_spacing_horizontal">20dp</dimen>
     <dimen name="stripe_paymentsheet_outer_spacing_top">10dp</dimen>
@@ -1323,6 +1328,8 @@
     <string name="acc_label_expiry_date_node">%s, Expiration date</string>
     <string name="acc_label_zip">ZIP Code</string>
     <string name="acc_label_zip_short">ZIP</string>
+    <string name="action_no">No</string>
+    <string name="action_yes">Yes</string>
     <string name="add_new_payment_method">Add a new payment method</string>
     <string name="added">Added %s</string>
     <string name="address_city_required">Please enter your city</string>
@@ -1385,7 +1392,9 @@
     <string name="address_state_required">Please enter your state</string>
     <string name="address_zip_invalid">Your ZIP code is invalid.</string>
     <string name="address_zip_postal_invalid">Your ZIP/Postal code is invalid</string>
+    <string name="allgo_card_ending_in">%1$s card ending in %2$s</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
+    <string name="app_store_delete_card">Are you sure you want to remove the %s?</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bank_account_ending_in">Remove bank account ending in %s</string>
     <string name="becs_mandate_acceptance">\n    By providing your bank account details and confirming this payment, you agree to this\n    Direct Debit Request and the Direct Debit Request service agreement, and authorise\n    Stripe Payments Australia Pty Ltd ACN 160 180 343 Direct Debit User ID number 507156\n    (“Stripe”) to debit your account through the Bulk Electronic Clearing System (BECS) on\n    behalf of %1$s (the \"Merchant\") for any amounts separately communicated to you\n    by the Merchant. You certify that you are either an account holder or an authorised\n    signatory on the account listed above.\n    </string>
@@ -1533,6 +1542,7 @@
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
+    <string name="or_text">or</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1566,7 +1576,7 @@
     <string name="stripe_failure_reason_authentication">We are unable to authenticate your payment method. Please choose a different payment method and try again.</string>
     <string name="stripe_failure_reason_timed_out">Timed out authenticating your payment method -- try again</string>
     <string name="stripe_google_pay_error_internal">An internal error occurred.</string>
-    <string name="stripe_paymentsheet_add_payment_method_button_label">+ Add</string>
+    <string name="stripe_paymentsheet_add_payment_method_button_label">Add</string>
     <string name="stripe_paymentsheet_add_payment_method_card_information">Card information</string>
     <string name="stripe_paymentsheet_add_payment_method_country_or_region">Country or region</string>
     <string name="stripe_paymentsheet_add_payment_method_title">Add your payment information</string>
@@ -1617,7 +1627,9 @@
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
-    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog"/>
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="colorAccent">@color/dialogButtonText</item>
+    </style>
     <style name="AndroidThemeColorAccentYellow" ns1:ignore="NewApi">
     <item name="android:colorAccent">#FFFFFF00</item>
   </style>
@@ -1632,6 +1644,10 @@
     <item name="android:windowEnterAnimation">@anim/mtrl_bottom_sheet_slide_in</item>
     <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
   </style>
+    <style name="AppstoreCheckboxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>
@@ -4033,7 +4049,7 @@
     <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
     </style>
     <style name="Stripe3DS2ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
         <item name="contentInsetStart">@dimen/stripe_3ds2_challenge_activity_padding</item>
@@ -4198,8 +4214,8 @@
         <item name="cardBackgroundColor">@android:color/transparent</item>
     </style>
     <style name="StripePaymentOptionItemCard">
-        <item name="android:layout_width">159dp</item>
-        <item name="android:layout_height">99dp</item>
+        <item name="android:layout_width">159dp</item> <!--159dp-->
+        <item name="android:layout_height">99dp</item> <!--99dp-->
         <item name="android:layout_marginStart">0dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
@@ -4214,7 +4230,7 @@
         <item name="cardBackgroundColor">@color/stripe_paymentsheet_elements_background_states
         </item>
         <item name="cardForegroundColor">@android:color/transparent</item>
-        <item name="cardCornerRadius">10dp</item>
+        <item name="cardCornerRadius">28dp</item>
     </style>
     <style name="StripePaymentOptionItemCardImage">
         <item name="android:layout_width">wrap_content</item>
@@ -4240,9 +4256,8 @@
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
         <!-- modify the bottom and end layout to correctly position the icon -->
-        <item name="android:paddingBottom">24dp</item>
-        <item name="android:paddingEnd">-25dp</item>
-        <item name="android:scaleType">center</item>
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
     </style>
     <style name="StripePaymentSheetAddPaymentMethodTheme">
         <item name="colorOnSurface">@color/stripe_paymentsheet_form</item>
@@ -4255,7 +4270,8 @@
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
         <item name="android:background">@android:color/white</item>
-        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states</item>
+        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states
+        </item>
     </style>
     <style name="StripePaymentSheetAutocompleteTextInputLayoutCustomAppstore" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="boxStrokeColor">@android:color/transparent</item>
@@ -4294,6 +4310,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
+        <item name="background">@drawable/edit_text_bg</item>
     </style>
     <style name="StripePaymentSheetErrorMessage">
         <item name="android:textColor">@color/stripe_paymentsheet_error_text</item>
@@ -4330,10 +4347,9 @@
         <item name="android:layout_marginBottom">4dp</item>
     </style>
     <style name="StripePaymentSheetPaymentMethodsLabel">
-        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color
-        </item>
-        <item name="android:textSize">26sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/font_roboto_bold</item>
         <item name="android:lineSpacingExtra">1sp</item>
         <item name="android:layout_marginStart">6dp</item>
         <item name="android:layout_marginEnd">6dp</item>
@@ -4344,6 +4360,7 @@
         <item name="android:textSize">18sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
+        <item name="hintTextColor">@color/appstore_hint_color</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
     </style>
     <style name="StripePaymentSheetTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
@@ -4352,7 +4369,8 @@
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
         <item name="android:background">@android:color/white</item>
-        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states</item>
+        <item name="android:backgroundTint">@color/stripe_paymentsheet_elements_background_states
+        </item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_textinputlayout_hint</item>
     </style>
     <style name="StripePaymentSheetTextInputLayoutCustomAppstore" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
@@ -5936,6 +5954,15 @@
   </style>
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
+    </style>
+    <style name="button_secondary" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:height">60dp</item>
+        <item name="android:textSize">@dimen/app_text_size_25_sp</item>
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
     </style>
     <declare-styleable name="ActionBar">
         <!-- The type of navigation to use. -->

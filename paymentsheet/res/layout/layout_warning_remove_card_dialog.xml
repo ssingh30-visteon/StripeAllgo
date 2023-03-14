@@ -8,8 +8,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="925dp"
-        android:layout_height="400dp"
-        android:background="@drawable/pop_up_background"
+        android:layout_height="444dp"
+        android:background="@drawable/dialog_background"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,6 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="42dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginStart="42dp"
             android:fontFamily="@font/font_roboto_medium"
             android:gravity="center"
             android:text="@string/app_store_delete_card"
@@ -34,7 +36,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_chainStyle="packed" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_warning_confirm_yes"
             style="@style/button_secondary"
             android:layout_width="207dp"
@@ -42,7 +44,7 @@
             android:layout_marginTop="58dp"
             android:layout_marginEnd="85dp"
             android:layout_marginBottom="65dp"
-            android:backgroundTint="@color/dialogButtonText"
+            android:background="@drawable/button_secondary"
             android:text="@string/action_yes"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_warning_confirm_no"
@@ -66,12 +68,12 @@
             app:layout_constraintStart_toEndOf="@+id/btn_warning_confirm_yes"
             app:layout_constraintTop_toTopOf="@+id/btn_warning_confirm_no" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_warning_confirm_no"
             style="@style/button_secondary"
             android:layout_width="207dp"
             android:layout_height="60dp"
-            android:backgroundTint="@color/dialogButtonText"
+            android:background="@drawable/button_secondary"
             android:text="@string/action_no"
             app:layout_constraintBottom_toBottomOf="@+id/btn_warning_confirm_yes"
             app:layout_constraintEnd_toEndOf="parent"

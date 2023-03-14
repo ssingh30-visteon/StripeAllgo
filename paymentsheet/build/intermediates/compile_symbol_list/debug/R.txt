@@ -1962,6 +1962,7 @@ int drawable abc_textfield_search_material 0x0
 int drawable abc_vector_test 0x0
 int drawable avd_hide_password 0x0
 int drawable avd_show_password 0x0
+int drawable baseline_lock_24 0x0
 int drawable btn_checkbox_checked_mtrl 0x0
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x0
 int drawable btn_checkbox_unchecked_mtrl 0x0
@@ -1999,6 +2000,7 @@ int drawable design_ic_visibility 0x0
 int drawable design_ic_visibility_off 0x0
 int drawable design_password_eye 0x0
 int drawable design_snackbar_background 0x0
+int drawable dialog_background 0x0
 int drawable edit_text_bg 0x0
 int drawable edit_text_default_bg 0x0
 int drawable edittext_bg 0x0
@@ -3073,6 +3075,7 @@ int string address_required 0x0
 int string address_state_required 0x0
 int string address_zip_invalid 0x0
 int string address_zip_postal_invalid 0x0
+int string allgo_card_ending_in 0x0
 int string app_store_delete_card 0x0
 int string appbar_scrolling_view_behavior 0x0
 int string bank_account_ending_in 0x0

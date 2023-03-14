@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/radio_button_unchecked/baseline_radio_button_unchecked_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/lock/baseline_lock_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,8 +33,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="e7792b" />
-                            <entry key="outputName" value="ic_checkbox_unchecked" />
+                            <entry key="color" value="ffffff" />
+                            <entry key="outputName" value="baseline_lock_24" />
                             <entry key="sourceFile" value="C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3" />
                           </map>
                         </option>

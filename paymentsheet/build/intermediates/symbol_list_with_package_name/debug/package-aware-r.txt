@@ -1963,6 +1963,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_lock_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2000,6 +2001,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dialog_background
 drawable edit_text_bg
 drawable edit_text_default_bg
 drawable edittext_bg
@@ -3074,6 +3076,7 @@ string address_required
 string address_state_required
 string address_zip_invalid
 string address_zip_postal_invalid
+string allgo_card_ending_in
 string app_store_delete_card
 string appbar_scrolling_view_behavior
 string bank_account_ending_in

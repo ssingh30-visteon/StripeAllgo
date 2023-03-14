@@ -248,7 +248,7 @@
     <string name="stripe_failure_reason_authentication">We are unable to authenticate your payment method. Please choose a different payment method and try again.</string>
     <string name="stripe_failure_reason_timed_out">Timed out authenticating your payment method - please try again</string>
     <string name="stripe_google_pay_error_internal">An internal error occurred.</string>
-    <string name="stripe_paymentsheet_add_payment_method_button_label">+ Add</string>
+    <string name="stripe_paymentsheet_add_payment_method_button_label">Add</string>
     <string name="stripe_paymentsheet_add_payment_method_card_information">Card information</string>
     <string name="stripe_paymentsheet_add_payment_method_country_or_region">Country or region</string>
     <string name="stripe_paymentsheet_add_payment_method_title">Add your payment information</string>

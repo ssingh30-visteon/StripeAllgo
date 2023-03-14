@@ -94,6 +94,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:checked="true"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
         android:textColor="@color/appstore_stripe_color_white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -36,9 +36,9 @@
         android:id="@+id/check_icon"
         style="@style/StripePaymentOptionItemCheckIcon"
         android:duplicateParentState="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription" />
 
@@ -46,8 +46,8 @@
         android:id="@+id/delete_icon"
         style="@style/StripePaymentOptionItemDeleteIcon"
         android:duplicateParentState="true"
-        android:layout_width="@dimen/stripe_paymentsheet_minimum_tap_size"
-        android:layout_height="@dimen/stripe_paymentsheet_minimum_tap_size"
+        android:layout_width="@dimen/stripe_paymentsheet_add_pm_card_height"
+        android:layout_height="@dimen/stripe_paymentsheet_add_pm_card_height"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription" />

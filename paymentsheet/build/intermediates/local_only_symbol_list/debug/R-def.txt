@@ -18,6 +18,7 @@ color appstore_stripe_color_black
 color appstore_stripe_color_transparent
 color appstore_stripe_color_white
 color colorAccent
+color dialogButtonText
 color divider_color
 color stripe_accent_color_default
 color stripe_control_normal_color_default
@@ -96,6 +97,7 @@ dimen stripe_paymentsheet_primary_button_icon_padding
 dimen stripe_paymentsheet_primary_button_icon_size
 dimen stripe_paymentsheet_primary_button_margin
 dimen stripe_paymentsheet_toolbar_elevation
+drawable baseline_lock_24
 drawable button_secondary
 drawable button_secondary_disabled
 drawable button_secondary_normal

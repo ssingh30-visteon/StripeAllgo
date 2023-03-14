@@ -52,7 +52,7 @@
     <dimen name="stripe_paymentsheet_add_payment_method_form_stroke_width">1dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation">0dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation_selected">1.5dp</dimen>
-    <dimen name="stripe_paymentsheet_add_pm_card_height">60dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_height">40dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width">1.5dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width_selected">2dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_width">112dp</dimen>
@@ -66,7 +66,7 @@
     <dimen name="stripe_paymentsheet_error_textsize">13sp</dimen>
     <dimen name="stripe_paymentsheet_form_textsize">14sp</dimen>
     <dimen name="stripe_paymentsheet_googlepay_button_height">53dp</dimen>
-    <dimen name="stripe_paymentsheet_max_primary_button_height">54dp</dimen>
+    <dimen name="stripe_paymentsheet_max_primary_button_height">60dp</dimen>
     <dimen name="stripe_paymentsheet_minimum_tap_size">48dp</dimen>
     <dimen name="stripe_paymentsheet_outer_spacing_horizontal">20dp</dimen>
     <dimen name="stripe_paymentsheet_outer_spacing_top">10dp</dimen>
@@ -111,7 +111,7 @@
     <string name="address_label_post_town">Post or Town</string>
     <string name="address_label_suburb">Suburb</string>
     <string name="address_label_village_township">Village or Township</string>
-    <string name="app_store_delete_card">Are you sure you want to delete this card?</string>
+    <string name="app_store_delete_card">Are you sure you want to remove the %s?</string>
     <string name="bank_account_ending_in">Remove bank account ending in %s</string>
     <string name="billing_details">Billing address</string>
     <string name="blank_and_required">This field cannot be blank.</string>
@@ -196,8 +196,8 @@
     <style name="StripeBaseTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
         <item name="colorAccent">@color/stripe_accent_color_default</item>
         <item name="colorControlNormal">@color/stripe_control_normal_color_default</item>
-       <!-- <item name="colorPrimary">@color/stripe_toolbar_color_default</item>
-        <item name="colorPrimaryDark">@color/stripe_toolbar_color_default_dark</item>-->
+        <item name="colorPrimary">@color/stripe_toolbar_color_default</item>
+        <item name="colorPrimaryDark">@color/stripe_toolbar_color_default_dark</item>
         <item name="titleTextColor">@color/stripe_title_text_color</item>
         <item name="android:textColorSecondary">@color/stripe_text_color_secondary</item>
     </style>
@@ -206,12 +206,14 @@
         <item name="android:layout_margin">2dp</item>
         <item name="android:checkable">false</item>
         <item name="cardElevation">0dp</item>
-        
+        <!--<item name="strokeColor">@color/stripe_paymentsheet_add_payment_method_form_stroke</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_add_payment_method_form_stroke_width
+        </item>-->
         <item name="cardBackgroundColor">@android:color/transparent</item>
     </style>
     <style name="StripePaymentOptionItemCard">
-        <item name="android:layout_width">159dp</item> 
-        <item name="android:layout_height">99dp</item> 
+        <item name="android:layout_width">159dp</item> <!--159dp-->
+        <item name="android:layout_height">99dp</item> <!--99dp-->
         <item name="android:layout_marginStart">0dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
@@ -238,7 +240,7 @@
     <style name="StripePaymentOptionItemCheckIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_check_circle</item>
-        
+        <!-- modify the bottom and end layout to correctly position the check -->
         <item name="android:layout_marginBottom">11dp</item>
         <item name="android:paddingEnd">-2dp</item>
     </style>
@@ -251,10 +253,9 @@
     <style name="StripePaymentOptionItemDeleteIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
-        
-        <item name="android:paddingBottom">24dp</item>
-        <item name="android:paddingEnd">-25dp</item>
-        <item name="android:scaleType">center</item>
+        <!-- modify the bottom and end layout to correctly position the icon -->
+        <item name="android:layout_marginBottom">11dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
     </style>
     <style name="StripePaymentSheetAddPaymentMethodTheme">
         <item name="colorOnSurface">@color/stripe_paymentsheet_form</item>
@@ -329,18 +330,16 @@
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
         <item name="fontFamily">@font/font_roboto_medium</item>
         <item name="android:lineSpacingExtra">5sp</item>
-        
+        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginStart">1dp</item>
         <item name="android:layout_marginEnd">1dp</item>
         <item name="android:layout_marginBottom">4dp</item>
     </style>
     <style name="StripePaymentSheetPaymentMethodsLabel">
-        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color
-        </item>
-
-        <item name="android:textSize">26sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/font_roboto_bold</item>
         <item name="android:lineSpacingExtra">1sp</item>
         <item name="android:layout_marginStart">6dp</item>
         <item name="android:layout_marginEnd">6dp</item>

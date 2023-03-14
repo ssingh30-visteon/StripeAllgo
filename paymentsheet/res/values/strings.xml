@@ -127,6 +127,6 @@
     <string name="action_yes">Yes</string>
     <string name="action_no">No</string>
     <string name="or_text">or</string>
-    <string name="app_store_delete_card">Are you sure you want to delete this card?</string>
+    <string name="app_store_delete_card">Are you sure you want to remove the %s?</string>
 
 </resources>

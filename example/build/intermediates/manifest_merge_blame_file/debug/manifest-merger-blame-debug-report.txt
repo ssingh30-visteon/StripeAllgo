@@ -65,449 +65,448 @@
 38-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:21:9-52
 39        android:supportsRtl="true"
 39-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:18:9-35
-40        android:testOnly="true"
-41        android:theme="@style/AppTheme"
-41-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:17:9-40
-42        android:usesCleartextTraffic="true" >
-42-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:22:9-44
-43        <meta-data
-44            android:name="com.stripe.example.metadata.backend_url"
-44-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:25:13-67
-45            android:value="" />
-45-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:26:13-43
-46        <meta-data
-47            android:name="com.stripe.example.metadata.publishable_key"
-47-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:28:13-71
-48            android:value="" />
-48-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:29:13-47
-49        <meta-data
-50            android:name="com.stripe.example.metadata.stripe_account_id"
-50-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:31:13-73
-51            android:value="" />
-51-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:32:13-49
-52
-53        <!-- Enables the Google Payment API -->
-54        <meta-data
-54-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:35:9-37:36
-55            android:name="com.google.android.gms.wallet.api.enabled"
-55-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:36:13-69
-56            android:value="true" />
-56-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:37:13-33
-57
-58        <activity
-58-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:39:9-47:20
-59            android:name="com.stripe.example.activity.LauncherActivity"
-59-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:40:13-54
-60            android:exported="true" >
-60-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:41:13-36
-61            <intent-filter>
-61-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:42:13-46:29
-62                <action android:name="android.intent.action.MAIN" />
-62-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:17-69
-62-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:25-66
-63
-64                <category android:name="android.intent.category.LAUNCHER" />
-64-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:17-77
-64-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:27-74
-65            </intent-filter>
-66        </activity>
-67        <activity android:name="com.stripe.example.activity.CreateCardTokenActivity" />
-67-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:9-70
-67-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:19-67
-68        <activity android:name="com.stripe.example.activity.CreateCardSourceActivity" />
-68-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:9-71
-68-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:19-68
-69        <activity android:name="com.stripe.example.activity.CustomerSessionActivity" />
-69-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:9-70
-69-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:19-67
-70        <activity android:name="com.stripe.example.activity.CreateCardPaymentMethodActivity" />
-70-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:9-78
-70-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:19-75
-71        <activity android:name="com.stripe.example.activity.PaymentSessionActivity" />
-71-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:9-69
-71-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:19-66
-72        <activity android:name="com.stripe.example.activity.GooglePayLauncherIntegrationActivity" />
-72-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:9-83
-72-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:19-80
-73        <activity android:name="com.stripe.example.activity.GooglePayLauncherPlaygroundActivity" />
-73-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:9-82
-73-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:19-79
-74        <activity android:name="com.stripe.example.activity.GooglePayPaymentMethodLauncherIntegrationActivity" />
-74-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:9-96
-74-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:19-93
-75        <activity android:name="com.stripe.example.activity.PaymentAuthActivity" />
-75-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:9-66
-75-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:19-63
-76        <activity android:name="com.stripe.example.activity.FragmentExamplesActivity" />
-76-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:9-71
-76-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:19-68
-77        <activity android:name="com.stripe.example.activity.ConfirmSepaDebitActivity" />
-77-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:9-71
-77-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:19-68
-78        <activity android:name="com.stripe.example.activity.FpxPaymentActivity" />
-78-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:9-65
-78-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:19-62
-79        <activity android:name="com.stripe.example.activity.NetbankingListPaymentActivity" />
-79-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:9-76
-79-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:19-73
-80        <activity android:name="com.stripe.example.activity.BecsDebitPaymentMethodActivity" />
-80-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:9-77
-80-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:19-74
-81        <activity android:name="com.stripe.example.activity.BacsDebitPaymentMethodActivity" />
-81-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:9-77
-81-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:19-74
-82        <activity android:name="com.stripe.example.activity.SofortPaymentMethodActivity" />
-82-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:9-74
-82-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:19-71
-83        <activity android:name="com.stripe.example.activity.UpiPaymentActivity" />
-83-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:9-65
-83-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:19-62
-84        <activity android:name="com.stripe.example.activity.UpiWaitingActivity" />
-84-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:9-65
-84-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:19-62
-85        <activity android:name="com.stripe.example.activity.KlarnaSourceActivity" />
-85-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:9-67
-85-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:19-64
-86        <activity android:name="com.stripe.example.activity.CardBrandsActivity" />
-86-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:9-65
-86-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:19-62
-87        <activity android:name="com.stripe.example.activity.NetbankingPaymentActivity" />
-87-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:9-72
-87-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:19-69
-88        <activity android:name="com.stripe.example.activity.SimpleConfirmationActivity" />
-88-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:9-73
-88-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:19-70
-89        <activity android:name="com.stripe.example.activity.ConnectExampleActivity" />
-89-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:9-69
-89-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:19-66
-90        <activity android:name="com.stripe.example.activity.ComposeExampleActivity" />
-90-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:9-69
-90-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:19-66
-91        <activity android:name="com.stripe.example.activity.KlarnaPaymentActivity" />
-91-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:9-67
-91-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:19-65
-92        <activity
-92-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:69
-93            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
-93-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-80
-94            android:exported="false"
-94-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
-95            android:theme="@style/StripePaymentSheetDefaultTheme" />
-95-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-66
-96        <activity
-96-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-21:69
-97            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
-97-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-82
-98            android:exported="false"
-98-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
-99            android:theme="@style/StripePaymentSheetDefaultTheme" />
-99-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-66
-100        <activity
-100-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-20:57
-101            android:name="com.stripe.android.view.AddPaymentMethodActivity"
-101-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-76
-102            android:exported="false"
-102-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
-103            android:theme="@style/StripeDefaultTheme" />
-103-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-54
-104        <activity
-104-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:57
-105            android:name="com.stripe.android.view.PaymentMethodsActivity"
-105-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
-106            android:exported="false"
-106-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
-107            android:theme="@style/StripeDefaultTheme" />
-107-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-54
-108        <activity
-108-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:57
-109            android:name="com.stripe.android.view.PaymentFlowActivity"
-109-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-71
-110            android:exported="false"
-110-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
-111            android:theme="@style/StripeDefaultTheme" />
-111-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-54
-112        <activity
-112-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:58
-113            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
-113-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-78
-114            android:exported="false"
-114-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
-115            android:theme="@style/StripeDefaultTheme"
-115-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-54
-116            android:windowSoftInputMode="adjustResize" />
-116-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-55
-117        <activity
-117-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-37:61
-118            android:name="com.stripe.android.view.PaymentRelayActivity"
-118-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-72
-119            android:exported="false"
-119-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
-120            android:theme="@style/StripeTransparentTheme" />
-120-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-58
-121        <!--
-122        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
-123        launched the browser Activity will also handle the return URL deep link.
-124        -->
-125        <activity
-125-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-60:20
-126            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
-126-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-85
-127            android:exported="true"
-127-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-36
-128            android:launchMode="singleTask"
-128-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-44
-129            android:theme="@style/StripeTransparentTheme" >
-129-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-58
-130            <intent-filter>
-130-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-59:29
-131                <action android:name="android.intent.action.VIEW" />
-131-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:17-69
-131-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:25-66
-132
-133                <category android:name="android.intent.category.DEFAULT" />
-133-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:17-76
-133-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:27-73
-134                <category android:name="android.intent.category.BROWSABLE" />
-134-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:17-78
-134-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:27-75
-135
-136                <!-- Must match `DefaultReturnUrl#value`. -->
-137                <data
-137-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:17-58:50
-138                    android:host="payment_return_url"
-138-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:21-54
-139                    android:path="/com.stripe.example"
-139-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:21-53
-140                    android:scheme="stripesdk" />
-140-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:21-47
-141            </intent-filter>
-142        </activity>
-143        <activity
-143-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:9-64:57
-144            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
-144-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-114
-145            android:exported="false"
-145-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-37
-146            android:theme="@style/StripeDefaultTheme" />
-146-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-54
-147        <activity
-147-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:9-68:66
-148            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
-148-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-88
-149            android:exported="false"
-149-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:13-37
-150            android:theme="@style/StripeGooglePayDefaultTheme" />
-150-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-63
-151        <activity
-151-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:9-72:66
-152            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
-152-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:13-90
-153            android:exported="false"
-153-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:13-37
-154            android:theme="@style/StripeGooglePayDefaultTheme" />
-154-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-63
-155        <activity
-155-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:9-76:66
-156            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
-156-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:13-103
-157            android:exported="false"
-157-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-37
-158            android:theme="@style/StripeGooglePayDefaultTheme" />
-158-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:13-63
-159        <activity
-159-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:9-80:62
-160            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
-160-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-107
-161            android:exported="false"
-161-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:13-37
-162            android:theme="@style/PayLauncherDefaultTheme" />
-162-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:13-59
-163        <activity
-163-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:10:9-13:54
-164            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
-164-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:11:13-81
-165            android:exported="false"
-165-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:12:13-37
-166            android:theme="@style/Stripe3DS2Theme" />
-166-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:13:13-51
-167        <activity
-167-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:25:9-27:39
-168            android:name="androidx.compose.ui.tooling.PreviewActivity"
-168-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:26:13-71
-169            android:exported="true" />
-169-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:27:13-36
-170
-171        <service
-171-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:23:9-25:40
-172            android:name="leakcanary.internal.HeapAnalyzerService"
-172-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:24:13-67
-173            android:exported="false" />
-173-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:25:13-37
-174
-175        <provider
-175-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:29:9-37:20
-176            android:name="leakcanary.internal.LeakCanaryFileProvider"
-176-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:30:13-70
-177            android:authorities="com.squareup.leakcanary.fileprovider.com.stripe.example"
-177-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:31:13-88
-178            android:exported="false"
-178-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:32:13-37
-179            android:grantUriPermissions="true" >
-179-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:33:13-47
-180            <meta-data
-180-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:34:13-36:66
-181                android:name="android.support.FILE_PROVIDER_PATHS"
-181-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:35:17-67
-182                android:resource="@xml/leak_canary_file_paths" />
-182-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:36:17-63
-183        </provider>
-184
-185        <activity
-185-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:39:9-44:66
-186            android:name="leakcanary.internal.activity.LeakActivity"
-186-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:40:13-69
-187            android:icon="@mipmap/leak_canary_icon"
-187-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:41:13-52
-188            android:label="@string/leak_canary_display_activity_label"
-188-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:42:13-71
-189            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
-189-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:43:13-76
-190            android:theme="@style/leak_canary_LeakCanary.Base" />
-190-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:44:13-63
-191
-192        <activity-alias
-192-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:46:9-63:26
-193            android:name="leakcanary.internal.activity.LeakLauncherActivity"
-193-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:47:13-77
-194            android:banner="@drawable/leak_canary_tv_icon"
-194-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:48:13-59
-195            android:enabled="@bool/leak_canary_add_launcher_icon"
-195-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:49:13-66
-196            android:exported="true"
-196-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:50:13-36
-197            android:icon="@mipmap/leak_canary_icon"
-197-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:51:13-52
-198            android:label="@string/leak_canary_display_activity_label"
-198-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:52:13-71
-199            android:targetActivity="leakcanary.internal.activity.LeakActivity"
-199-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:53:13-79
-200            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
-200-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:54:13-76
-201            android:theme="@style/leak_canary_LeakCanary.Base" >
-201-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:55:13-63
-202            <intent-filter>
-202-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:56:13-62:29
-203                <action android:name="android.intent.action.MAIN" />
-203-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:17-69
-203-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:25-66
-204
-205                <category android:name="android.intent.category.LAUNCHER" />
-205-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:17-77
-205-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:27-74
-206                <!-- Android TV launcher intent -->
-207                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-207-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:17-86
-207-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:27-83
-208            </intent-filter>
-209        </activity-alias>
-210
-211        <activity
-211-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:65:9-71:68
-212            android:name="leakcanary.internal.RequestStoragePermissionActivity"
-212-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:66:13-80
-213            android:excludeFromRecents="true"
-213-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:67:13-46
-214            android:icon="@mipmap/leak_canary_icon"
-214-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:68:13-52
-215            android:label="@string/leak_canary_storage_permission_activity_label"
-215-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:69:13-82
-216            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
-216-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:70:13-76
-217            android:theme="@style/leak_canary_Theme.Transparent" />
-217-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:71:13-65
-218
-219        <receiver android:name="leakcanary.internal.NotificationReceiver" /> <!-- Needs to be explicitly declared on P+ -->
-219-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:9-77
-219-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:19-74
-220        <uses-library
-220-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-221            android:name="org.apache.http.legacy"
-221-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-222            android:required="false" />
-222-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-223
-224        <activity
-224-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-225            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-225-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-226            android:exported="false"
-226-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-227            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-227-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-228
-229        <meta-data
-229-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
-230            android:name="com.google.android.gms.version"
-230-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
-231            android:value="@integer/google_play_services_version" />
-231-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
-232
-233        <provider
-233-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:26:9-34:20
-234            android:name="androidx.startup.InitializationProvider"
-234-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:27:13-67
-235            android:authorities="com.stripe.example.androidx-startup"
-235-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:28:13-68
-236            android:exported="false" >
-236-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:29:13-37
-237            <meta-data
-237-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:31:13-33:52
-238                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-238-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:32:17-85
-239                android:value="androidx.startup" />
-239-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:33:17-49
-240        </provider>
-241
-242        <receiver
-242-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:36:9-45:20
-243            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-243-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:37:13-76
-244            android:directBootAware="false"
-244-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:38:13-44
-245            android:enabled="true"
-245-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:39:13-35
-246            android:exported="true"
-246-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:40:13-36
-247            android:permission="android.permission.DUMP" >
-247-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:41:13-57
-248            <intent-filter>
-248-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:42:13-44:29
-249                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-249-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:17-91
-249-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:25-88
-250            </intent-filter>
-251        </receiver>
-252
-253        <provider
-253-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:8:9-12:40
-254            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
-254-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:9:13-79
-255            android:authorities="com.stripe.example.leakcanary-installer"
-255-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:10:13-72
-256            android:enabled="@bool/leak_canary_watcher_auto_install"
-256-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:11:13-69
-257            android:exported="false" />
-257-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:12:13-37
-258        <provider
-258-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:8:9-12:40
-259            android:name="leakcanary.internal.PlumberInstaller"
-259-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:9:13-64
-260            android:authorities="com.stripe.example.plumber-installer"
-260-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:10:13-69
-261            android:enabled="@bool/leak_canary_plumber_auto_install"
-261-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:11:13-69
-262            android:exported="false" />
-262-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:12:13-37
-263    </application>
-264
-265</manifest>
+40        android:theme="@style/AppTheme"
+40-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:17:9-40
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:22:9-44
+42        <meta-data
+43            android:name="com.stripe.example.metadata.backend_url"
+43-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:25:13-67
+44            android:value="" />
+44-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:26:13-43
+45        <meta-data
+46            android:name="com.stripe.example.metadata.publishable_key"
+46-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:28:13-71
+47            android:value="" />
+47-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:29:13-47
+48        <meta-data
+49            android:name="com.stripe.example.metadata.stripe_account_id"
+49-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:31:13-73
+50            android:value="" />
+50-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:32:13-49
+51
+52        <!-- Enables the Google Payment API -->
+53        <meta-data
+53-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:35:9-37:36
+54            android:name="com.google.android.gms.wallet.api.enabled"
+54-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:36:13-69
+55            android:value="true" />
+55-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:37:13-33
+56
+57        <activity
+57-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:39:9-47:20
+58            android:name="com.stripe.example.activity.LauncherActivity"
+58-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:40:13-54
+59            android:exported="true" >
+59-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:41:13-36
+60            <intent-filter>
+60-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:42:13-46:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:17-69
+61-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:17-77
+63-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity android:name="com.stripe.example.activity.CreateCardTokenActivity" />
+66-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:9-70
+66-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:49:19-67
+67        <activity android:name="com.stripe.example.activity.CreateCardSourceActivity" />
+67-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:9-71
+67-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:50:19-68
+68        <activity android:name="com.stripe.example.activity.CustomerSessionActivity" />
+68-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:9-70
+68-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:51:19-67
+69        <activity android:name="com.stripe.example.activity.CreateCardPaymentMethodActivity" />
+69-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:9-78
+69-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:52:19-75
+70        <activity android:name="com.stripe.example.activity.PaymentSessionActivity" />
+70-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:9-69
+70-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:53:19-66
+71        <activity android:name="com.stripe.example.activity.GooglePayLauncherIntegrationActivity" />
+71-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:9-83
+71-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:54:19-80
+72        <activity android:name="com.stripe.example.activity.GooglePayLauncherPlaygroundActivity" />
+72-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:9-82
+72-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:55:19-79
+73        <activity android:name="com.stripe.example.activity.GooglePayPaymentMethodLauncherIntegrationActivity" />
+73-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:9-96
+73-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:56:19-93
+74        <activity android:name="com.stripe.example.activity.PaymentAuthActivity" />
+74-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:9-66
+74-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:57:19-63
+75        <activity android:name="com.stripe.example.activity.FragmentExamplesActivity" />
+75-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:9-71
+75-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:58:19-68
+76        <activity android:name="com.stripe.example.activity.ConfirmSepaDebitActivity" />
+76-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:9-71
+76-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:59:19-68
+77        <activity android:name="com.stripe.example.activity.FpxPaymentActivity" />
+77-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:9-65
+77-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:60:19-62
+78        <activity android:name="com.stripe.example.activity.NetbankingListPaymentActivity" />
+78-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:9-76
+78-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:61:19-73
+79        <activity android:name="com.stripe.example.activity.BecsDebitPaymentMethodActivity" />
+79-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:9-77
+79-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:62:19-74
+80        <activity android:name="com.stripe.example.activity.BacsDebitPaymentMethodActivity" />
+80-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:9-77
+80-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:63:19-74
+81        <activity android:name="com.stripe.example.activity.SofortPaymentMethodActivity" />
+81-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:9-74
+81-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:64:19-71
+82        <activity android:name="com.stripe.example.activity.UpiPaymentActivity" />
+82-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:9-65
+82-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:65:19-62
+83        <activity android:name="com.stripe.example.activity.UpiWaitingActivity" />
+83-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:9-65
+83-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:66:19-62
+84        <activity android:name="com.stripe.example.activity.KlarnaSourceActivity" />
+84-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:9-67
+84-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:67:19-64
+85        <activity android:name="com.stripe.example.activity.CardBrandsActivity" />
+85-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:9-65
+85-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:68:19-62
+86        <activity android:name="com.stripe.example.activity.NetbankingPaymentActivity" />
+86-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:9-72
+86-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:69:19-69
+87        <activity android:name="com.stripe.example.activity.SimpleConfirmationActivity" />
+87-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:9-73
+87-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:70:19-70
+88        <activity android:name="com.stripe.example.activity.ConnectExampleActivity" />
+88-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:9-69
+88-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:71:19-66
+89        <activity android:name="com.stripe.example.activity.ComposeExampleActivity" />
+89-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:9-69
+89-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:72:19-66
+90        <activity android:name="com.stripe.example.activity.KlarnaPaymentActivity" />
+90-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:9-67
+90-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:73:19-65
+91        <activity
+91-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:69
+92            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+92-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-80
+93            android:exported="false"
+93-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+94            android:theme="@style/StripePaymentSheetDefaultTheme" />
+94-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-66
+95        <activity
+95-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-21:69
+96            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+96-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-82
+97            android:exported="false"
+97-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+98            android:theme="@style/StripePaymentSheetDefaultTheme" />
+98-->[:paymentsheet] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\paymentsheet\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-66
+99        <activity
+99-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-20:57
+100            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+100-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-76
+101            android:exported="false"
+101-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+102            android:theme="@style/StripeDefaultTheme" />
+102-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-54
+103        <activity
+103-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:57
+104            android:name="com.stripe.android.view.PaymentMethodsActivity"
+104-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-74
+105            android:exported="false"
+105-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+106            android:theme="@style/StripeDefaultTheme" />
+106-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-54
+107        <activity
+107-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:57
+108            android:name="com.stripe.android.view.PaymentFlowActivity"
+108-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-71
+109            android:exported="false"
+109-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+110            android:theme="@style/StripeDefaultTheme" />
+110-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-54
+111        <activity
+111-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:58
+112            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+112-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-78
+113            android:exported="false"
+113-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+114            android:theme="@style/StripeDefaultTheme"
+114-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-54
+115            android:windowSoftInputMode="adjustResize" />
+115-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-55
+116        <activity
+116-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-37:61
+117            android:name="com.stripe.android.view.PaymentRelayActivity"
+117-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-72
+118            android:exported="false"
+118-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+119            android:theme="@style/StripeTransparentTheme" />
+119-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-58
+120        <!--
+121        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+122        launched the browser Activity will also handle the return URL deep link.
+123        -->
+124        <activity
+124-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-60:20
+125            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+125-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-85
+126            android:exported="true"
+126-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-36
+127            android:launchMode="singleTask"
+127-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-44
+128            android:theme="@style/StripeTransparentTheme" >
+128-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-58
+129            <intent-filter>
+129-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-59:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:17-69
+130-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:17-76
+132-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:17-78
+133-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:27-75
+134
+135                <!-- Must match `DefaultReturnUrl#value`. -->
+136                <data
+136-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:17-58:50
+137                    android:host="payment_return_url"
+137-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:21-54
+138                    android:path="/com.stripe.example"
+138-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:21-53
+139                    android:scheme="stripesdk" />
+139-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:21-47
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:9-64:57
+143            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+143-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-114
+144            android:exported="false"
+144-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-37
+145            android:theme="@style/StripeDefaultTheme" />
+145-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-54
+146        <activity
+146-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:9-68:66
+147            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+147-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-88
+148            android:exported="false"
+148-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:13-37
+149            android:theme="@style/StripeGooglePayDefaultTheme" />
+149-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-63
+150        <activity
+150-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:9-72:66
+151            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+151-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:13-90
+152            android:exported="false"
+152-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:13-37
+153            android:theme="@style/StripeGooglePayDefaultTheme" />
+153-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-63
+154        <activity
+154-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:9-76:66
+155            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+155-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:13-103
+156            android:exported="false"
+156-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-37
+157            android:theme="@style/StripeGooglePayDefaultTheme" />
+157-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:13-63
+158        <activity
+158-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:9-80:62
+159            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+159-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-107
+160            android:exported="false"
+160-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:13-37
+161            android:theme="@style/PayLauncherDefaultTheme" />
+161-->[:payments-core] C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\payments-core\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:13-59
+162        <activity
+162-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:10:9-13:54
+163            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+163-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:11:13-81
+164            android:exported="false"
+164-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:12:13-37
+165            android:theme="@style/Stripe3DS2Theme" />
+165-->[com.stripe:stripe-3ds2-android:6.1.2] C:\Users\ssingh30\.gradle\caches\transforms-3\0ab41d6cec6609941d79545945c6e638\transformed\stripe-3ds2-android-6.1.2\AndroidManifest.xml:13:13-51
+166        <activity
+166-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:25:9-27:39
+167            android:name="androidx.compose.ui.tooling.PreviewActivity"
+167-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:26:13-71
+168            android:exported="true" />
+168-->[androidx.compose.ui:ui-tooling:1.0.5] C:\Users\ssingh30\.gradle\caches\transforms-3\6da56fae36f06f545d229fdc178453d0\transformed\ui-tooling-1.0.5\AndroidManifest.xml:27:13-36
+169
+170        <service
+170-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:23:9-25:40
+171            android:name="leakcanary.internal.HeapAnalyzerService"
+171-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:24:13-67
+172            android:exported="false" />
+172-->[com.squareup.leakcanary:leakcanary-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\136766b009733a1ea1de8c6e32d4f829\transformed\leakcanary-android-2.7\AndroidManifest.xml:25:13-37
+173
+174        <provider
+174-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:29:9-37:20
+175            android:name="leakcanary.internal.LeakCanaryFileProvider"
+175-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:30:13-70
+176            android:authorities="com.squareup.leakcanary.fileprovider.com.stripe.example"
+176-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:31:13-88
+177            android:exported="false"
+177-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:32:13-37
+178            android:grantUriPermissions="true" >
+178-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:33:13-47
+179            <meta-data
+179-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:34:13-36:66
+180                android:name="android.support.FILE_PROVIDER_PATHS"
+180-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:35:17-67
+181                android:resource="@xml/leak_canary_file_paths" />
+181-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:36:17-63
+182        </provider>
+183
+184        <activity
+184-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:39:9-44:66
+185            android:name="leakcanary.internal.activity.LeakActivity"
+185-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:40:13-69
+186            android:icon="@mipmap/leak_canary_icon"
+186-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:41:13-52
+187            android:label="@string/leak_canary_display_activity_label"
+187-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:42:13-71
+188            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
+188-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:43:13-76
+189            android:theme="@style/leak_canary_LeakCanary.Base" />
+189-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:44:13-63
+190
+191        <activity-alias
+191-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:46:9-63:26
+192            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+192-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:47:13-77
+193            android:banner="@drawable/leak_canary_tv_icon"
+193-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:48:13-59
+194            android:enabled="@bool/leak_canary_add_launcher_icon"
+194-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:49:13-66
+195            android:exported="true"
+195-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:50:13-36
+196            android:icon="@mipmap/leak_canary_icon"
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:51:13-52
+197            android:label="@string/leak_canary_display_activity_label"
+197-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:52:13-71
+198            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+198-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:53:13-79
+199            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
+199-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:54:13-76
+200            android:theme="@style/leak_canary_LeakCanary.Base" >
+200-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:55:13-63
+201            <intent-filter>
+201-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:56:13-62:29
+202                <action android:name="android.intent.action.MAIN" />
+202-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:17-69
+202-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:43:25-66
+203
+204                <category android:name="android.intent.category.LAUNCHER" />
+204-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:17-77
+204-->C:\Users\ssingh30\Downloads\StripeAppstore-0.3.3\example\AndroidManifest.xml:45:27-74
+205                <!-- Android TV launcher intent -->
+206                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+206-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:17-86
+206-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:61:27-83
+207            </intent-filter>
+208        </activity-alias>
+209
+210        <activity
+210-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:65:9-71:68
+211            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+211-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:66:13-80
+212            android:excludeFromRecents="true"
+212-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:67:13-46
+213            android:icon="@mipmap/leak_canary_icon"
+213-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:68:13-52
+214            android:label="@string/leak_canary_storage_permission_activity_label"
+214-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:69:13-82
+215            android:taskAffinity="com.squareup.leakcanary.com.stripe.example"
+215-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:70:13-76
+216            android:theme="@style/leak_canary_Theme.Transparent" />
+216-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:71:13-65
+217
+218        <receiver android:name="leakcanary.internal.NotificationReceiver" /> <!-- Needs to be explicitly declared on P+ -->
+218-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:9-77
+218-->[com.squareup.leakcanary:leakcanary-android-core:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\c2efb812e74d153c9c68e30871a0c31f\transformed\leakcanary-android-core-2.7\AndroidManifest.xml:73:19-74
+219        <uses-library
+219-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+220            android:name="org.apache.http.legacy"
+220-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+221            android:required="false" />
+221-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ssingh30\.gradle\caches\transforms-3\d558f1655b866010b138ef8c91b854fc\transformed\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+222
+223        <activity
+223-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+224            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+224-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\b634d52483619a75707703449f50f00d\transformed\play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+227
+228        <meta-data
+228-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+229            android:name="com.google.android.gms.version"
+229-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+230            android:value="@integer/google_play_services_version" />
+230-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\ssingh30\.gradle\caches\transforms-3\e21790de95d2c6dd6396381bf253ea9c\transformed\play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+231
+232        <provider
+232-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:26:9-34:20
+233            android:name="androidx.startup.InitializationProvider"
+233-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:27:13-67
+234            android:authorities="com.stripe.example.androidx-startup"
+234-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:28:13-68
+235            android:exported="false" >
+235-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:29:13-37
+236            <meta-data
+236-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:31:13-33:52
+237                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+237-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:32:17-85
+238                android:value="androidx.startup" />
+238-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:33:17-49
+239        </provider>
+240
+241        <receiver
+241-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:36:9-45:20
+242            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+242-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:37:13-76
+243            android:directBootAware="false"
+243-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:38:13-44
+244            android:enabled="true"
+244-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:39:13-35
+245            android:exported="true"
+245-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:40:13-36
+246            android:permission="android.permission.DUMP" >
+246-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:41:13-57
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:42:13-44:29
+248                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+248-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:17-91
+248-->[androidx.profileinstaller:profileinstaller:1.0.4] C:\Users\ssingh30\.gradle\caches\transforms-3\3adb74a17508c4352798dfe9b9d05ae5\transformed\profileinstaller-1.0.4\AndroidManifest.xml:43:25-88
+249            </intent-filter>
+250        </receiver>
+251
+252        <provider
+252-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:8:9-12:40
+253            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+253-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:9:13-79
+254            android:authorities="com.stripe.example.leakcanary-installer"
+254-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:10:13-72
+255            android:enabled="@bool/leak_canary_watcher_auto_install"
+255-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:11:13-69
+256            android:exported="false" />
+256-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\0c14d956b437b059fc38c2c7f80f2233\transformed\leakcanary-object-watcher-android-2.7\AndroidManifest.xml:12:13-37
+257        <provider
+257-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:8:9-12:40
+258            android:name="leakcanary.internal.PlumberInstaller"
+258-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:9:13-64
+259            android:authorities="com.stripe.example.plumber-installer"
+259-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:10:13-69
+260            android:enabled="@bool/leak_canary_plumber_auto_install"
+260-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:11:13-69
+261            android:exported="false" />
+261-->[com.squareup.leakcanary:plumber-android:2.7] C:\Users\ssingh30\.gradle\caches\transforms-3\50e13a9f3a44dbec45dec68eda65d344\transformed\plumber-android-2.7\AndroidManifest.xml:12:13-37
+262    </application>
+263
+264</manifest>

@@ -4,6 +4,10 @@
         "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\stripe_googlepay_button_overlay.xml"
     },
     {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\button_secondary.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\button_secondary.xml"
+    },
+    {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_paymentsheet_pm_bancontact.xml",
         "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\stripe_ic_paymentsheet_pm_bancontact.xml"
     },
@@ -40,6 +44,10 @@
         "source": "C:\\Users\\ssingh30\\.gradle\\caches\\transforms-3\\0ab41d6cec6609941d79545945c6e638\\transformed\\stripe-3ds2-android-6.1.2\\res\\drawable-night-v8\\ic_arrow.xml"
     },
     {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\button_secondary_pressed.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\button_secondary_pressed.xml"
+    },
+    {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_paymentsheet_card_unknown.xml",
         "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\stripe_ic_paymentsheet_card_unknown.xml"
     },
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_paymentsheet_pm_eps.xml",
         "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\stripe_ic_paymentsheet_pm_eps.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\button_secondary_disabled.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\button_secondary_disabled.xml"
     },
     {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_unknown.xml",
@@ -74,6 +86,10 @@
     {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_paymentsheet_card_visa.xml",
         "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\stripe_ic_paymentsheet_card_visa.xml"
+    },
+    {
+        "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\button_secondary_normal.xml",
+        "source": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\res\\drawable-night\\button_secondary_normal.xml"
     },
     {
         "merged": "C:\\Users\\ssingh30\\Downloads\\StripeAppstore-0.3.3\\paymentsheet\\build\\intermediates\\merged_res\\debug\\drawable-night-v8\\stripe_ic_cvc_amex.xml",

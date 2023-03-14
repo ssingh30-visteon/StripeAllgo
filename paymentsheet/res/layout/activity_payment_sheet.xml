@@ -103,7 +103,9 @@
 
                     <com.stripe.android.paymentsheet.ui.PrimaryButton
                         android:id="@+id/buy_button"
-                        android:layout_width="264dp"
+                        android:layout_width="207dp"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
                         android:layout_height="wrap_content"
                         android:text="@string/stripe_paymentsheet_pay_button_label"
                         android:background="@drawable/stripe_paymentsheet_button_bg"

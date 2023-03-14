@@ -11,6 +11,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import androidx.annotation.VisibleForTesting
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
@@ -198,10 +199,12 @@ internal abstract class BasePaymentMethodsListFragment(
 
 
     private fun showConfirmationDialog(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
-        mConfirmationDialog = Dialog(requireContext(), R.style.AlertDialogStyle)
+        mConfirmationDialog = Dialog(requireActivity(), R.style.AlertDialogStyle)
         mConfirmationDialog.setContentView(R.layout.layout_warning_remove_card_dialog)
         mConfirmationDialog.setCanceledOnTouchOutside(false)
         mConfirmationDialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        val title: TextView =
+            mConfirmationDialog.findViewById(R.id.tv_warning_logout_header)
         val btnConfirmNo: Button =
             mConfirmationDialog.findViewById(R.id.btn_warning_confirm_no)
         val btnConfirmYes: Button =
@@ -209,6 +212,11 @@ internal abstract class BasePaymentMethodsListFragment(
         /* val text: TextView =
              mConfirmationDialog.findViewById<TextView>(R.id.tv_warning_uninstall_content)
          text.setText(appInfo.getName())*/
+
+        title.text  = resources.getString(
+            R.string.app_store_delete_card,
+            item.getStripeAllgoDescription(resources)
+        )
         btnConfirmYes.setOnClickListener {
             adapter.removeItem(item)
             sheetViewModel.removePaymentMethod(item.paymentMethod)
