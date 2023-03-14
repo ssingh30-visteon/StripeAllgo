@@ -12,12 +12,14 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import androidx.annotation.VisibleForTesting
+import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.stripe.android.paymentsheet.analytics.EventReporter
 import com.stripe.android.paymentsheet.databinding.FragmentPaymentsheetPaymentMethodsListBinding
 import com.stripe.android.paymentsheet.model.FragmentConfig
 import com.stripe.android.paymentsheet.model.PaymentSelection
+import com.stripe.android.paymentsheet.model.SupportedPaymentMethod
 import com.stripe.android.paymentsheet.ui.BaseSheetActivity
 import com.stripe.android.paymentsheet.viewmodels.BaseSheetViewModel
 
@@ -165,9 +167,11 @@ internal abstract class BasePaymentMethodsListFragment(
 
     private fun deletePaymentMethod(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
         showConfirmationDialog(item)
+       // showOldConfirmationDialog(item)
     }
 
-    /*AlertDialog.Builder(requireActivity())
+    private fun showOldConfirmationDialog(item: PaymentOptionsAdapter.Item.SavedPaymentMethod){
+        AlertDialog.Builder(requireActivity())
         .setTitle(
             resources.getString(
                 R.string.stripe_paymentsheet_remove_pm,
@@ -189,7 +193,8 @@ internal abstract class BasePaymentMethodsListFragment(
             sheetViewModel.removePaymentMethod(item.paymentMethod)
         }
         .create()
-        .show()*/
+        .show()
+    }
 
 
     private fun showConfirmationDialog(item: PaymentOptionsAdapter.Item.SavedPaymentMethod) {
