@@ -119,7 +119,7 @@ internal class BillingAddressView @JvmOverloads constructor(
 
         countryView.textSize = 18f
         countryView.setBackgroundResource(R.drawable.stripe_paymentsheet_edittext_bg)
-        postalCodeView.setBackgroundResource(R.drawable.edit_text_bg)
+        postalCodeView.setBackgroundResource(R.drawable.stripe_paymentsheet_edittext_bg)
     }
 
     private val newCountryCodeCallback = { newCountryCode: CountryCode ->
@@ -322,7 +322,7 @@ internal class BillingAddressView @JvmOverloads constructor(
                 R.color.appstore_hint_color
             )
         )
-        viewBinding.postalCode.background = ContextCompat.getDrawable(context,R.drawable.edit_text_bg)
+        viewBinding.postalCode.background = ContextCompat.getDrawable(context,R.drawable.stripe_paymentsheet_edittext_bg)
         viewBinding.postalCode.hint = resources.getString(
             if (isUS(countryCode)) {
                 R.string.acc_label_zip_short

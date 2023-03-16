@@ -144,7 +144,7 @@
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
         <item name="android:textSize">14sp</item>
-        <!--<item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>-->
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
     </style>
@@ -155,7 +155,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="background">@drawable/edit_text_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
 
 </resources>

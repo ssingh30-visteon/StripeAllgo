@@ -14,7 +14,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../payments/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debugUnitTest/R.jar</arg>
                 <arg>$MODULE_DIR$/../../../payments/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../payments-core/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$MODULE_DIR$/../../../paymentsheet/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
