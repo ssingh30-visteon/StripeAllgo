@@ -1,6 +1,7 @@
 package com.stripe.android.paymentsheet.ui
 
 import android.animation.LayoutTransition
+import android.content.pm.ActivityInfo
 import android.graphics.Insets
 import android.os.Build
 import android.os.Bundle
@@ -149,7 +150,6 @@ internal abstract class BaseSheetActivity<ResultType> : AppCompatActivity() {
                 R.string.stripe_paymentsheet_back
             )
         }
-
         toolbar.navigationIcon = ContextCompat.getDrawable(this, toolbarResources.icon)
         toolbar.navigationContentDescription = resources.getString(toolbarResources.description)
     }

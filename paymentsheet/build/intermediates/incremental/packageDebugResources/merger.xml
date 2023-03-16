@@ -114,10 +114,10 @@
         <item name="android:layout_marginEnd">1dp</item>
         <item name="android:layout_marginBottom">4dp</item>
     </style><style name="StripePaymentSheetLabelCustomAppstore">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
-        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
         <item name="android:lineSpacingExtra">5sp</item>
         
         <item name="android:layout_marginTop">10dp</item>
@@ -153,7 +153,7 @@
         <item name="boxStrokeWidth">0dp</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
     </style><style name="StripePaymentSheetAutocompleteTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="boxStrokeColor">@android:color/transparent</item>
@@ -168,13 +168,13 @@
         <item name="boxStrokeWidth">0dp</item>
         <item name="android:paddingTop">4dp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="android:background">@android:color/transparent</item>
     </style><style name="StripePaymentSheetTextInputEditText">
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
         <item name="android:textSize">18sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="hintTextColor">@color/appstore_hint_color</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
     </style><style name="StripePaymentSheetCountryItem">
