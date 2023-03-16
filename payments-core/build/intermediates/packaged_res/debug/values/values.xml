@@ -219,7 +219,7 @@
     <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
     <style name="StripeActionButtonStyle" parent="Widget.AppCompat.ActionButton">
         <item name="android:paddingStart">16dp</item>
