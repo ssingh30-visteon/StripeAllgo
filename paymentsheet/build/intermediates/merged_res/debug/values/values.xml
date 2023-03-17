@@ -718,7 +718,7 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <dimen name="ciw_stripe_edit_text_size">18sp</dimen>
+    <dimen name="ciw_stripe_edit_text_size">25sp</dimen>
     <dimen name="clock_face_margin_start">64dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
@@ -1083,7 +1083,7 @@
     <dimen name="stripe_paymentsheet_add_payment_method_form_stroke_width">1dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation">0dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_elevation_selected">1.5dp</dimen>
-    <dimen name="stripe_paymentsheet_add_pm_card_height">40dp</dimen>
+    <dimen name="stripe_paymentsheet_add_pm_card_height">43dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width">1.5dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_stroke_width_selected">2dp</dimen>
     <dimen name="stripe_paymentsheet_add_pm_card_width">112dp</dimen>
@@ -4049,7 +4049,7 @@
     <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
     <style name="Stripe3DS2ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
         <item name="contentInsetStart">@dimen/stripe_3ds2_challenge_activity_padding</item>
@@ -4220,7 +4220,7 @@
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
         <item name="android:layout_marginBottom">4dp</item>
-        <item name="android:padding">4dp</item>
+        <item name="android:padding">0dp</item>
         <item name="android:clickable">false</item>
         <item name="android:focusable">false</item>
         <item name="rippleColor">@android:color/transparent</item>
@@ -4256,8 +4256,8 @@
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
         <!-- modify the bottom and end layout to correctly position the icon -->
-        <item name="android:layout_marginBottom">11dp</item>
-        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginEnd">6dp</item>
     </style>
     <style name="StripePaymentSheetAddPaymentMethodTheme">
         <item name="colorOnSurface">@color/stripe_paymentsheet_form</item>
@@ -4276,9 +4276,9 @@
     <style name="StripePaymentSheetAutocompleteTextInputLayoutCustomAppstore" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="boxStrokeColor">@android:color/transparent</item>
         <item name="boxStrokeWidth">0dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
-        <item name="android:background">@android:color/transparent</item>
+        <!--<item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>-->
+        <item name="android:textSize">25sp</item>
     </style>
     <style name="StripePaymentSheetBaseTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
@@ -4298,8 +4298,8 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_textinput_color</item>
-        <item name="android:paddingTop">13dp</item>
-        <item name="android:paddingBottom">13dp</item>
+         <item name="android:paddingTop">8dp</item>
+         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingStart">13dp</item>
         <item name="android:paddingEnd">13dp</item>
     </style>
@@ -4310,7 +4310,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="background">@drawable/edit_text_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
     <style name="StripePaymentSheetErrorMessage">
         <item name="android:textColor">@color/stripe_paymentsheet_error_text</item>
@@ -4335,10 +4335,10 @@
         <item name="android:layout_marginBottom">4dp</item>
     </style>
     <style name="StripePaymentSheetLabelCustomAppstore">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
-        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
         <item name="android:lineSpacingExtra">5sp</item>
         <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginTop">10dp</item>
@@ -4351,15 +4351,16 @@
         <item name="android:textSize">25sp</item>
         <item name="fontFamily">@font/font_roboto_bold</item>
         <item name="android:lineSpacingExtra">1sp</item>
-        <item name="android:layout_marginStart">6dp</item>
+        <item name="android:layout_marginStart">15dp</item>
         <item name="android:layout_marginEnd">6dp</item>
     </style>
     <style name="StripePaymentSheetTextInputEditText">
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="hintTextColor">@color/appstore_hint_color</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
     </style>
@@ -4378,8 +4379,9 @@
         <item name="boxStrokeColor">@android:color/transparent</item>
         <item name="boxStrokeWidth">0dp</item>
         <item name="android:paddingTop">4dp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
     </style>
     <style name="StripePaymentSheetTitle">
@@ -4393,7 +4395,7 @@
         <item name="android:textSize">26sp</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
         <item name="android:layout_height">32dp</item>
-        <item name="fontFamily">@font/font_roboto_regular</item>
+        <item name="fontFamily">@font/font_roboto_medium</item>
     </style>
     <style name="StripePaymentSheetTotalLabel">
         <item name="android:textSize">13sp</item>
@@ -4404,11 +4406,12 @@
     </style>
     <style name="StripePaymentSheetTotalLabelCustomAppstore">
         <item name="android:layout_marginTop">10dp</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
         <item name="android:lineSpacingExtra">5sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/font_roboto_light</item>
     </style>
     <style name="StripeToolBarStyle" parent="@style/ThemeOverlay.AppCompat">
         <item name="colorControlNormal">?attr/titleTextColor</item>

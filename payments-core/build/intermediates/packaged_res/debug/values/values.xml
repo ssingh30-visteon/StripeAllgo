@@ -30,6 +30,7 @@
     <color name="stripe_title_text_color">@android:color/white</color>
     <color name="stripe_toolbar_color_default">#ff3f51b5</color>
     <color name="stripe_toolbar_color_default_dark">#ff324090</color>
+    <dimen name="app_text_size_25_sp">25sp</dimen>
     <dimen name="card_brand_spinner_dropdown_drawable_padding">5dp</dimen>
     <dimen name="card_brand_spinner_dropdown_padding">20dp</dimen>
     <dimen name="card_brand_spinner_dropdown_width">200dp</dimen>
@@ -37,7 +38,7 @@
     <dimen name="card_brand_spinner_image_width">32dp</dimen>
     <dimen name="card_brand_view_height">21dp</dimen>
     <dimen name="card_brand_view_width">32dp</dimen>
-    <dimen name="ciw_stripe_edit_text_size">18sp</dimen>
+    <dimen name="ciw_stripe_edit_text_size">25sp</dimen>
     <dimen name="stripe_activity_total_margin">8dp</dimen>
     <dimen name="stripe_add_address_vertical_margin">16dp</dimen>
     <dimen name="stripe_add_card_element_vertical_margin">12dp</dimen>

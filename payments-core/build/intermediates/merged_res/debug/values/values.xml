@@ -666,6 +666,7 @@
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="action_bar_size">16dp</dimen>
+    <dimen name="app_text_size_25_sp">25sp</dimen>
     <dimen name="appcompat_dialog_background_inset">16dp</dimen>
     <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
@@ -679,7 +680,7 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <dimen name="ciw_stripe_edit_text_size">18sp</dimen>
+    <dimen name="ciw_stripe_edit_text_size">25sp</dimen>
     <dimen name="clock_face_margin_start">64dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
@@ -3894,7 +3895,7 @@
     <style name="Stripe.CardInputWidget.TextInputLayout" parent="Stripe.Base.CardInputWidget.TextInputLayout"/>
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
     <style name="Stripe3DS2ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
         <item name="contentInsetStart">@dimen/stripe_3ds2_challenge_activity_padding</item>
@@ -4051,7 +4052,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="background">@drawable/edit_text_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
     </style>
     <style name="StripePaymentSheetFormDivider">
         <item name="android:layout_width">match_parent</item>
@@ -4062,7 +4063,7 @@
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
         <item name="android:textSize">14sp</item>
-        <!--<item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>-->
+        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
     </style>
