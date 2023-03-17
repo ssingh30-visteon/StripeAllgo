@@ -166,6 +166,7 @@
         <item name="boxStrokeColor">@android:color/transparent</item>
         <item name="boxStrokeWidth">0dp</item>
         <item name="android:paddingTop">4dp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:paddingBottom">4dp</item>
         <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
@@ -184,14 +185,15 @@
     <style name="StripePaymentSheetAutocompleteTextInputLayoutCustomAppstore" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="boxStrokeColor">@android:color/transparent</item>
         <item name="boxStrokeWidth">0dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
+        <!--<item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>-->
+        <item name="android:textSize">25sp</item>
     </style>
 
     <style name="StripePaymentSheetTextInputEditText">
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
         <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
@@ -206,8 +208,8 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_textinput_color</item>
-        <item name="android:paddingTop">13dp</item>
-        <item name="android:paddingBottom">13dp</item>
+         <item name="android:paddingTop">8dp</item>
+         <item name="android:paddingBottom">8dp</item>
         <item name="android:paddingStart">13dp</item>
         <item name="android:paddingEnd">13dp</item>
     </style>
