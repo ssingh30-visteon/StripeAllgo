@@ -206,12 +206,14 @@
         <item name="android:layout_margin">2dp</item>
         <item name="android:checkable">false</item>
         <item name="cardElevation">0dp</item>
-        
+        <!--<item name="strokeColor">@color/stripe_paymentsheet_add_payment_method_form_stroke</item>
+        <item name="strokeWidth">@dimen/stripe_paymentsheet_add_payment_method_form_stroke_width
+        </item>-->
         <item name="cardBackgroundColor">@android:color/transparent</item>
     </style>
     <style name="StripePaymentOptionItemCard">
-        <item name="android:layout_width">159dp</item> 
-        <item name="android:layout_height">99dp</item> 
+        <item name="android:layout_width">159dp</item> <!--159dp-->
+        <item name="android:layout_height">99dp</item> <!--99dp-->
         <item name="android:layout_marginStart">0dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:layout_marginEnd">0dp</item>
@@ -238,7 +240,7 @@
     <style name="StripePaymentOptionItemCheckIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_check_circle</item>
-        
+        <!-- modify the bottom and end layout to correctly position the check -->
         <item name="android:layout_marginBottom">11dp</item>
         <item name="android:paddingEnd">-2dp</item>
     </style>
@@ -251,7 +253,7 @@
     <style name="StripePaymentOptionItemDeleteIcon">
         <item name="android:visibility">gone</item>
         <item name="android:src">@drawable/stripe_ic_delete_symbol</item>
-        
+        <!-- modify the bottom and end layout to correctly position the icon -->
         <item name="android:layout_marginTop">5dp</item>
         <item name="android:layout_marginEnd">6dp</item>
     </style>
@@ -272,7 +274,8 @@
     <style name="StripePaymentSheetAutocompleteTextInputLayoutCustomAppstore" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
         <item name="boxStrokeColor">@android:color/transparent</item>
         <item name="boxStrokeWidth">0dp</item>
-        
+        <!--<item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>-->
         <item name="android:textSize">25sp</item>
     </style>
     <style name="StripePaymentSheetBaseTheme" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
@@ -327,7 +330,7 @@
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
         <item name="fontFamily">@font/font_roboto_light</item>
         <item name="android:lineSpacingExtra">5sp</item>
-        
+        <!--<item name="android:textStyle">bold</item>-->
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginStart">1dp</item>
         <item name="android:layout_marginEnd">1dp</item>
@@ -347,7 +350,7 @@
         <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="hintTextColor">@color/appstore_hint_color</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
     </style>
@@ -368,7 +371,7 @@
         <item name="android:paddingTop">4dp</item>
         <item name="android:textSize">25sp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
     </style>
     <style name="StripePaymentSheetTitle">

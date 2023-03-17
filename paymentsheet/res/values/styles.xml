@@ -168,7 +168,7 @@
         <item name="android:paddingTop">4dp</item>
         <item name="android:textSize">25sp</item>
         <item name="android:paddingBottom">4dp</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
     </style>
 
@@ -196,7 +196,7 @@
         <item name="android:textSize">25sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:layout_margin">2dp</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="hintTextColor">@color/appstore_hint_color</item>
         <item name="android:textColor">@color/appstore_stripe_color_white</item>
     </style>

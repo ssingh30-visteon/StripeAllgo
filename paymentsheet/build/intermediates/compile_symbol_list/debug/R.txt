@@ -2147,7 +2147,7 @@ int drawable stripe_ic_visa 0x0
 int drawable stripe_ic_visa_template_32 0x0
 int drawable stripe_paymentsheet_bg 0x0
 int drawable stripe_paymentsheet_button_bg 0x0
-int drawable stripe_paymentsheet_edittext_bg 0x0
+int drawable stripe_paymentsheet_edit_text_selector 0x0
 int drawable stripe_paymentsheet_primary_button_confirmed_background 0x0
 int drawable stripe_paymentsheet_primary_button_default_background 0x0
 int drawable stripe_paymentsheet_scrollbar_thumb_bg 0x0

@@ -20,7 +20,7 @@
                 app:countryAutoCompleteStyle="@style/StripePaymentSheetCountryItem"
                 app:countryItemLayout="@layout/stripe_country_dropdown_item"
                 app:helperTextEnabled="false"
-                android:background="@drawable/stripe_paymentsheet_edittext_bg"
+                android:background="@drawable/stripe_paymentsheet_edit_text_selector"
                 app:endIconDrawable="@drawable/stripe_ic_paymentsheet_ctil_chevron"
                 app:endIconTint="@null"
                 android:fontFamily="@font/font_roboto_light"
@@ -128,7 +128,7 @@
                     <com.stripe.android.view.StripeEditText
                         android:id="@+id/postal_code"
                         android:imeOptions="flagNoExtractUi"
-                        android:background="@drawable/stripe_paymentsheet_edittext_bg"
+                        android:background="@drawable/stripe_paymentsheet_edit_text_selector"
                         style="@style/StripePaymentSheetTextInputEditText"
                         android:inputType="textPostalAddress"
                         android:layout_width="match_parent"

@@ -30,7 +30,7 @@
 
     <style name="Stripe.CardMultilineWidget.TextInputLayout" parent="Stripe.Base.CardMultilineWidget.TextInputLayout">
         <item name="android:textColorHint">@color/stripe_paymentsheet_editetext_hint_color</item>
-        <item name="android:background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="android:background">@drawable/stripe_paymentsheet_edit_text_selector</item>
     </style>
 
     <style name="Stripe.Base.BecsDebitWidget.EditText" parent="Widget.AppCompat.EditText">
@@ -84,7 +84,7 @@
             @dimen/stripe_card_form_view_text_input_layout_padding_vertical
         </item>
         <item name="android:background">
-            @drawable/stripe_card_form_view_text_input_layout_background
+            @drawable/stripe_paymentsheet_edit_text_selector
         </item>
     </style>
 
@@ -113,7 +113,7 @@
             @dimen/stripe_card_form_view_text_input_layout_padding_vertical
         </item>
         <item name="android:background">
-            @drawable/stripe_card_form_view_text_input_layout_background
+            @drawable/stripe_paymentsheet_edit_text_selector
         </item>
     </style>
 
@@ -121,7 +121,7 @@
         <item name="android:imeOptions">actionDone</item>
         <item name="android:textColor">@color/stripe_card_form_view_text_color</item>
         <item name="android:textSize">@dimen/stripe_card_form_view_textsize</item>
-        <item name="android:background">@android:color/transparent</item>
+        <item name="android:background"> @drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="android:minHeight">@dimen/stripe_card_form_view_text_minheight</item>
     </style>
 
@@ -144,7 +144,7 @@
         <item name="android:inputType">text</item>
         <item name="android:maxLines">1</item>
         <item name="android:textSize">14sp</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/stripe_paymentsheet_editetext_text_color</item>
     </style>
@@ -155,7 +155,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="background">@drawable/stripe_paymentsheet_edittext_bg</item>
+        <item name="background">@drawable/stripe_paymentsheet_edit_text_selector</item>
     </style>
 
 </resources>
