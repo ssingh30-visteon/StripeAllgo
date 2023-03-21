@@ -246,6 +246,8 @@
     <style name="AppstoreCheckboxStyle" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
         <item name="android:button">@drawable/checkbox_selector</item>
         <item name="android:background">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/app_text_size_19_sp</item>
+        <item name="android:fontFamily">@font/font_roboto_light</item>
     </style>
 
     <style name="button_secondary" parent="@android:style/Widget.Button">
