@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="925dp"
         android:layout_height="444dp"
-        android:background="@drawable/dialog_background"
+        android:background="@drawable/stripe_paymentsheet_bg"
         android:paddingStart="40dp"
         android:paddingEnd="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
