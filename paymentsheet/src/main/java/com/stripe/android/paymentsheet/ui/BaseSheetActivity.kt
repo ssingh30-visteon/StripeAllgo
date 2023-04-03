@@ -111,7 +111,8 @@ internal abstract class BaseSheetActivity<ResultType> : AppCompatActivity() {
         bottomSheet.isClickable = true
 
         viewModel.liveMode.observe(this) { isLiveMode ->
-            testModeIndicator.visibility = if (isLiveMode) View.GONE else View.VISIBLE
+            // Hiding testModeIndicator in Test Mode as per requirement
+            testModeIndicator.visibility = if (isLiveMode) View.GONE else View.GONE
         }
 
         setSheetWidthForTablets()

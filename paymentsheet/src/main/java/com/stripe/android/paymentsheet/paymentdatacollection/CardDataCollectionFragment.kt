@@ -315,10 +315,12 @@ internal class CardDataCollectionFragment<ViewModelType : BaseSheetViewModel<*>>
     }
 
     private fun setupSaveCardCheckbox() {
-        saveCardCheckbox.text = getString(
+        /*saveCardCheckbox.text = getString(
             R.string.stripe_paymentsheet_save_this_card_with_merchant_name,
             sheetViewModel.merchantName
-        )
+        )*/
+        saveCardCheckbox.text = getString(
+            R.string.stripe_paymentsheet_save_for_future_payments)
         requireArguments().getParcelable<FormFragmentArguments>(
             ComposeFormDataCollectionFragment.EXTRA_CONFIG
         )?.let { args ->
